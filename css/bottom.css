@@ -1,0 +1,251 @@
+@charset "utf-8";
+html,body{height:100%;}
+
+/*cocacola_bottom_wrap*/
+#cocacola_bottom_wrap{
+    clear:both;
+    width:100%;
+    height:500px;
+    background-color:#a2171e;
+    min-width:1920px;
+}
+#cocacola_bottom{
+    width:1920px;
+    height:500px;
+    margin:0 auto;
+}
+.company_logo{
+    float:left;
+}
+.company_logo div{
+    width:640px;
+    height:500px;
+    position:relative;
+}
+.company_logo img{
+width:334px;
+height:54px;
+position:absolute; top:50%; left:50%;
+transform:translate(-50%,-50%);
+}
+.bottom_middle{
+    width:640px;
+    height:500px;
+    float:left;
+    position:relative;
+}
+#bottom_center_wrap{
+    width:515px;
+    height:250px;
+    position:absolute; top:50%; left:50%;
+    transform:translate(-50%,-50%);
+    border-left:2px solid #ffffff;
+    padding-left:15px;
+    box-sizing:border-box;
+}
+.cocacola_korea{
+    color:#ffffff;
+    width:515px;
+    height:90px;    
+    float:left;
+    font-size:14px;
+    line-height:1.5em;
+}
+.cocacola_korea strong{
+    display:block;
+    float:left;
+    color:#ffffff;
+    font-size:20px;
+    width:515px;
+    height:20px;
+    line-height:20px;
+    margin-bottom:15px;
+}
+.personal_information{
+    color:#ffffff;
+    width:515px;
+    height:50px;    
+    float:left;
+    font-size:14px;
+    line-height:1.5em;
+    margin-top:40px; 
+    text-align:justify;
+    white-space:nowrap;
+}
+.personal_information a{
+    color:#ffffff;
+    font-size:13px;
+    margin-left:8px;
+    display:inline-block;
+    transition:all 0.2s ease;
+}
+.personal_information a:hover{
+    color:rgba(255,255,255,0.8);
+}
+.personal_information span{
+    margin:0 8px 0 8px;
+    color:#ffffff;
+}    
+.bottom_menu{
+    width:340px;
+    height:15px;
+    float:left;
+    margin-top:40px;    
+}
+.bottom_menu li{
+    float:left;
+    height:15px;
+    text-align:center;
+    line-height:30px;
+    margin-right:16px;
+}
+.bottom_menu li:last-child{
+    margin-right:0;
+}
+.bottom_menu li a{
+    display:block;
+    color:#ffffff;
+    font-size:14px;
+    height:15px;
+    line-height:15px;
+    transition:all 0.2s ease;
+}
+.bottom_menu li:hover a{
+    color:rgba(255,255,255,0.8);
+}
+
+#family_site{
+	width:140px; 
+	height:100px;
+	position:absolute; bottom:57px; right:70px;
+}
+#family_site button{
+	border:none; 
+	width:140px;
+	height:17px;
+	font-size:15px;
+	text-align:left;
+	line-height:15px;  
+	color:#ffffff;
+	background-color:#a2171e;
+	position:relative;
+	cursor:pointer;
+	z-index:95;
+	outline:none;
+	transition:all 0.2s ease;
+}
+#family_site > button > .updown{
+	font-size:2px;
+	position:absolute; top:3px; right:25px;
+	display:block;	
+	height:10px;
+	width:10px;
+	line-height:10px;
+	color:#ffffff;
+}
+#family_site > ul{
+	background-color:#a2171e;
+	width:140px; 
+	height:100px; 
+	position:absolute; left:0; top:8px; 
+	z-index:90; 
+	padding-top:10px;
+	cursor:pointer;
+}
+#family_site > ul > li{
+	padding-left:10px;
+	text-indent:-4px;
+}
+#family_site > ul > li > a{
+	color:#ffffff; 
+	font-size:12px;
+	line-height:2em;
+	transition:all 0.2s ease;
+}
+
+#family_site button:hover{
+	color:rgba(255,255,255,0.8);
+}
+#family_site > ul > li > a:hover{
+	border-bottom:1px solid #ffffff;
+	color:rgba(255,255,255,0.8);	
+}
+
+.bottom_right{ 
+	float:left;
+    width:640px;
+    height:500px;
+	position:relative;
+}
+.bottom_right div{
+	width:515px;
+    height:250px;
+	position:absolute; top:50%; left:50%;
+    transform:translate(-50%,-50%);
+	border-left:2px solid #ffffff;
+    padding-left:15px;
+    box-sizing:border-box;
+}
+.cocacola_bottling_korea{
+	color:#ffffff;
+    width:495px;
+    height:95px;    
+    float:left;
+    font-size:14px;
+    line-height:1.5em;
+}
+.cocacola_bottling_korea strong{
+	display:block;
+    float:left;
+    color:#ffffff;
+    font-size:20px;
+    width:495px;
+    height:20px;
+    line-height:20px;
+    margin-bottom:15px;
+}
+.cocacola_sns_icon{
+    width:495px;
+    height:50px;
+	float:left;
+	margin-top:30px;
+}
+.cocacola_sns_icon li{
+	display:inline-block;
+	margin-right:10px;
+}
+.cocacola_sns_icon li a{
+	display:block;
+	transition:all 0.2s ease;
+}
+.cocacola_sns_icon li:hover a{
+	opacity:0.8;
+}
+.cocacola_copyright{
+	float:left;
+	width:495px;
+}
+.cocacola_copyright h6{
+	clear:both;
+	margin-top:43px;
+	font-size:12px;
+	color:#ffffff;
+    font-weight:normal;
+}
+ #top_icon{ 
+    display:block;
+    width:40px;
+    height:40px;
+    position:absolute; bottom:40px; right:40px;
+    position:fixed;
+    z-index:90;
+  	color:rgba(225,225,225,0.5);
+    font-size:50px;
+    transition:all 0.5s ease;
+	cursor:pointer;
+} 
+
+#top_icon:hover{
+    color:rgba(225,225,225,1);
+    transform:scale(0.8);
+}

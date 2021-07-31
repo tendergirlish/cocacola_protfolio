@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>코카-콜라 저니: 한국 코카-콜라(리뉴얼)</title>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/brand.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout_brand.css">
+<link rel="shortcut icon" href="images/coke_favi.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<header id="cocacola_headtop">
+	<div id="cocacola_top">
+		<div id="cocacola_left">
+			<h1><a href="index.html"><img src="images/index/logo.png" alt="코카콜라" width="110" height ="110"></a></h1>
+		</div><!--cocacola_logo -->
+	<nav id="cocacola_menu_navi">
+		<ul>
+			<li><a href="brand.html">Brand</a></li>
+			<li><a href="coke_story.html">Co-ke Story</a></li>
+			<li><a href="life.html">Life</a></li>
+			<li><a href="community.html">Community</a></li>
+			<li><a href="videos.html">Video</a></li>
+			<li><a href="company.html">Company</a></li>
+		</ul>
+	</nav><!-- cocacola_menu_navi 브랜드, 코크스토리.. -->	
+	
+	<ul id="cocacola_right">
+		<li class="login_join"><a href="login.html">Login</a></li>
+		<!-- login 로그인,회원가입 -->
+		<li class="mypage"><a href="join.html">My</a></li>
+		<!-- mypage 마이페이지 -->	
+
+		<li class="search"><i class="material-icons">&#xe8b6;</i>
+		    <p>	       
+                <span>         	  
+                    <label for="coke_search"></label>
+                    <input type="text" id="coke_search" autocomplete="off">
+                    <button type="button" id="search_button">검색</button>
+                </span>
+		    </p>
+        </li><!-- search 게시글 검색 -->
+
+			<li class="cocacola_world"><i class="material-icons">&#xe80b;</i>	
+          <!-- js 추가 -->
+           <div id="world_coke_wrap">
+              <ul id="n_africa">
+                   <li class="title">NORTH AMERICA</li>
+                   <li><a href="https://us.coca-cola.com/" target="_blank">United States</a></li>
+                   <li><a href="https://www.coca-cola.ca/" target="_blank" title="English">Canada</a></li>
+                   <li><a href="https://fr.coca-cola.ca/" target="_blank" title="Français">Canada</a></li>
+             </ul><!-- n_africa -->
+             
+             <ul id="l_america">
+                 <li class="title">LATIN AMERICA</li>
+                 <li><a href="https://www.cocacolalatinamerica.com/ar/es/home" target="_blank">Argentina</a></li>
+                 <li><a href="http://www.coca-cola.com.bz/">Belize</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/bo/es/home" target="_blank">Bolivia</a></li>
+                 <li><a href="https://www.coca-cola.com.br/" target="_blank" title="Brazil">Brasil</a></li>
+                 <li><a href="http://www.caribbean.coca-cola.com/">Caribbean</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/cl/es/home" target="_blank">Chile</a></li>
+                 <li><a href="https://www.coca-cola.com.co/co/es/home">Colombia</a></li>
+                 <li><a href="http://www.coca-cola.co.cr/">Costa Rica</a></li>
+                 <li title="República Dominicana"><a href="https://www.coca-cola.com.co/do/es/home">Dominican Republic</a></li>
+                 <li><a href="http://www.coca-cola.com.ec/">Ecuador</a></li>
+                 <li><a href="http://www.coca-cola.com.sv/">El Salvador</a></li>
+                 <li><a href="http://www.coca-cola.com.gt/">Guatemala</a></li>
+                 <li><a href="http://www.coca-cola.com.hn/">Honduras</a></li>
+                 <li><a href="https://www.coca-cola.com.co/jm/en/home">Jamaica</a></li>
+                 <li><a href="https://www.coca-colamexico.com.mx/" target="_blank">México</a></li>
+                 <li><a href="http://www.coca-cola.com.ni/">Nicaragua</a></li>
+                 <li><a href="http://www.coca-cola.com.pa/">Panamá</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/pe/es/home" target="_blank">Paraguay</a></li>
+                 <li><a href="http://www.coca-cola.com.pe/">Perú</a></li>
+                 <li><a href="https://www.coca-cola.com.co/tt/en/home">Trinidad and Tobago</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/uy/es/home" target="_blank">Uruguay</a></li>
+                 <li><a href="http://www.coca-cola.com.ve/">Venezuela</a></li>
+             </ul><!-- l_america --> 
+             <ul id="europe">
+                 <li class="title">EUROPE</li>
+                 <li><a href="https://www.coca-cola-oesterreich.at/marken/coca-cola" target="_blank" title="Österreich">Austria</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="Belgique">Belgium</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="België">Belgium</a></li>
+                 <li><a href="https://www.coca-cola.ba/" target="_blank" title="Bosna i Hercegovina">Bosnia</a></li>
+                 <li><a href="https://www.coca-cola.bg/" target="_blank" title="България">Bulgaria</a></li>
+                 <li><a href="https://www.coca-cola.hr/" target="_blank" title="Hrvatska">Croatia</a></li>
+                 <li><a href="https://www.coca-cola.cz/" target="_blank" title="Česká Republika">Czech Republic</a></li>
+                 <li><a href="https://www.coca-cola.dk/" target="_blank" title="Danmark">Denmark</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Eesti">Estonia</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Suomi">Finland</a></li>
+                 <li><a href="https://www.coca-cola-france.fr/" target="_blank">France</a></li>
+                 <li><a href="https://www.coca-cola-deutschland.de/" target="_blank" title="Deutschland">Germany</a></li>
+                 <li><a href="https://www.coca-cola.co.uk/" target="_blank">Great Britain</a></li>
+                 <li><a href="https://www.coca-cola.gr/el/home/" target="_blank" title="Ελλάδα">Greece</a></li>
+                 <li><a href="https://www.coca-cola.hu/" target="_blank" title="Magyarország">Hungary</a></li>
+                 <li><a href="http://www.coke.is/" target="_blank" title="Ísland">Iceland</a></li>
+                 <li><a href="https://www.coca-cola.ie/" target="_blank">Ireland</a></li>
+                 <li><a href="https://www.coca-colaitalia.it/brands/coca-cola" target="_blank" title="Italia">Italy</a></li>
+                 <li><a href="https://www.coca-cola.lv/" target="_blank" title="Latvija">Latvia</a></li>
+                 <li><a href="https://www.coca-cola.lt/" target="_blank" title="Lietuva">Lithuania</a></li>
+                 <li><a href="https://fr.coca-cola.be/mieux-nous-connaitre/a-propos-de-coca-cola/faits-et-chiffres-sur-coca-cola" target="_blank">Luxembourg</a></li>
+                 <li><a href="https://www.cocacolanederland.nl/" target="_blank" title="Nederland">Netherlands</a></li>
+                 <li><a href="https://www.coca-cola.no/" target="_blank" title="Norge">Norway</a></li>
+                 <li><a href="https://www.coca-cola.pl/" target="_blank" title="Polska">Poland</a></li>
+                 <li><a href="http://www.cocacola.pt/" target="_blank">Portugal</a></li>
+                 <li><a href="http://www.coca-cola.ro/" target="_blank" title="România">Romania</a></li>
+                 <li><a href="https://www.coca-cola.rs/" target="_blank" title="Srbija">Serbia</a></li>
+                 <li><a href="https://www.coca-cola.sk/" target="_blank" title="Slovensko">Slovakia</a></li>
+                 <li><a href="http://www.coca-cola.si/" target="_blank" title="Slovenija">Slovenia</a></li>
+                 <li><a href="https://www.cocacola.es/es/home/" target="_blank" title="España">Spain</a></li>
+                 <li><a href="https://www.coca-cola.se/" target="_blank" title="Sverige">Sweden</a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Schweiz">Switzerland </a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Suisse">Switzerland</a></li>
+             </ul><!-- europe --> 
+             <ul id="eurasia">
+                 <li class="title">EURASIA</li>
+                 <li><a href="http://www.coca-cola.am/" target="_blank">Armenia</a></li>
+                 <li><a href="http://www.coca-cola.az/" target="_blank" title="Azərbaycan">Azerbaijan</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Bahrain</a></li>
+                 <li><a href="http://coca-cola.by/" target="_blank" title="Беларусь">Belarus</a></li>
+                 <li><a href="http://ge.coca-cola.com/" target="_blank">Georgia</a></li>
+                 <li><a href="http://www.coca-cola.in/" target="_blank">India</a></li>
+                 <li><a href="http://cocacola.co.il/" target="_blank" title="ישראל">Israel</a></li>
+                 <li><a href="http://www.coca-cola.kz/kk/home/" target="_blank" title="Казахстан">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.kz/ru/home/" target="_blank" title="Русский">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.com.pk/" target="_blank">Pakistan</a></li>
+                 <li><a href="http://www.coca-cola.ps/" target="_blank">Palestinian Territories</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Qatar</a></li>
+                 <li><a href="http://www.coca-cola.ru/" target="_blank" title="Россия">Russia</a></li>
+                 <li><a href="http://www.coca-cola.com.tr/" target="_blank" title="Україна">Ukraine</a></li>
+                 <li><a href="http://www.coca-cola.ua/" target="_blank">United Arab Emirates</a></li>
+             </ul><!-- eurasia --> 
+             <ul id="africa">
+                 <li class="title">AFRICA</li>
+                 <li><a href="http://www.coca-cola.dz/ar/home/" target="_blank" title="العربية">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.dz/fr/home/" target="_blank" title="français">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Angola</a></li>
+                 <li><a href="http://www.coca-cola.com/bo/" target="_blank">Botswana</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Congo</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Democratic Republic of Congo</a></li>
+                 <li><a href="http://www.coca-cola.com/dji" target="_blank">Djibouti</a></li>
+                 <li><a href="http://www.coke.eg/en/home/" target="_blank">Egypt</a></li>
+                 <li><a href="http://www.coke.eg/ar/home/" target="_blank" title="مصر">Egypt</a></li>
+                 <li><a href="http://www.coca-cola.com/et" target="_blank">Ethiopia</a></li>
+                 <li><a href="http://www.coca-cola.co.ke/" target="_blank">Kenya</a></li>
+                 <li><a href="http://www.coca-cola.com/le" target="_blank">Lesotho</a></li>
+                 <li><a href="#">Madagascar</a></li>
+                 <li><a href="http://www.coca-cola.com/mal" target="_blank">Malawi</a></li>
+                 <li><a href="http://www.coca-cola.mu/en/home" target="_blank">Mauritius</a></li>
+                 <li><a href="http://www.coca-cola.ma/" target="_blank">Morocco</a></li>
+                 <li><a href="http://www.coca-cola.co.mz/" target="_blank">Mozambique</a></li>
+                 <li><a href="http://www.coca-cola.com/na" target="_blank">Namibia</a></li>
+                 <li><a href="http://www.coca-cola.com/ng" target="_blank">Nigeria</a></li>
+                 <li><a href="http://www.coca-cola.rw/" target="_blank">Rwanda</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Somalia</a></li>
+                 <li><a href="https://www.coke.co.za/" target="_blank">South Africa</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Swaziland</a></li>
+                 <li><a href="http://www.coca-cola.co.tz/" target="_blank">Tanzania</a></li>
+                 <li><a href="http://tunisia.coca-cola.com/language-selector/" target="_blank">Tunisia</a></li>
+                 <li><a href="http://www.coca-cola.co.ug/" target="_blank">Uganda</a></li>
+                 <li><a href="http://www.coca-cola.com/zm" target="_blank">Zambia</a></li>
+                 <li><a href="http://zw.coca-cola.com/en/home/" target="_blank">Zimbabwe</a></li>
+             </ul><!-- africa -->
+             <ul id="asia">
+                 <li class="title">ASIA PACIFIC</li>
+                 <li><a href="https://www.coca-cola.com.au/" target="_blank">Australia</a></li>
+                 <li><a href="http://www.coca-cola.com.bd/" target="_blank">Bangladesh</a></li>
+                 <li><a href="http://www.coca-cola.co.id/" target="_blank">Indonesia</a></li>
+                 <li><a href="http://www.cocacola.jp/" target="_blank" title="日本">Japan</a></li>
+                 <li><a href="http://www.coke.com.my/" target="_blank">Malaysia</a></li>
+                 <li><a href="http://mv.coca-cola.com/en/home/" target="_blank">Maldives</a></li>
+                 <li><a href="https://www.coke.co.nz/" target="_blank">New Zealand</a></li>
+                 <li><a href="http://www.coca-cola.com.ph/" target="_blank">Philippines</a></li>
+                 <li><a href="http://www.cocacola.co.kr/" target="_blank" title="대한민국">Republic of Korea</a></li>
+                 <li><a href="http://www.coca-cola.com.sg/" target="_blank">Republic of Singapore</a></li>
+                 <li><a href="http://lk.coca-cola.com/" target="_blank">Sri Lanka</a></li>
+                 <li><a href="https://www.coca-cola.com.cn/" target="_blank">China</a></li>
+                 <li><a href="http://www.icoke.hk/" target="_blank">Hong Kong</a></li>
+                 <li><a href="http://www.coke.com.tw/zh/home/" target="_blank">Taiwan</a></li>
+                 <li><a href="https://www.coca-cola.co.th/" target="_blank" title="ไทย">Thailand</a></li>
+                 <li><a href="http://www.coca-cola.vn/vi/home/" target="_blank">Vietnam</a></li>
+             </ul><!-- asia -->              
+           </div><!-- world_coke_wrap -->            
+		</li><!-- cocacola_world 전세계 코카콜라 사이트맵 -->
+		
+	</ul><!-- cocacola_right -->
+	</div> <!-- cocacola_top 로고, 메뉴, 로그인 ...-->
+</header><!--cocacola_headtop 전체상단-->
+
+<div id="cocacola_brand_headline">
+	<img src="images/brand/head_img.jpg" alt="코카콜라 화보 이미지 : 올림픽" width="1920" height="1000">
+</div><!-- cocacola_brand_headline -->
+
+<div id="brand_product_introduction">
+    <div id="brand_wrap">
+        <div id="product_cocacola">
+            <div id=product_wrap1>	
+                <img src="images/brand/coke1.jpg" alt="코카콜라:언제 어디서나 이 맛, 이 느낌!언제 어디서나 통하는 세계 공통어, 코카-콜라!" width="485" height="765">
+                <div>
+                    <p><strong>언제 어디서나 이 맛&comma; 이 느낌&#33;</strong><br>언제 어디서나 통하는 세계 공통어&comma; 코카-콜라&#33;<br>나만의 취향과 스타일에 따라<br> &lsquo;코-크 오리지널&rsquo;&comma;&lsquo;코카-콜라 제로&rsquo;&comma;<br>&lsquo;코카-콜라 라이트&rsquo; 중에 선택할 수 있다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap1 -->
+        </div><!--product_cocacola -->
+        <div id="product_fanta">
+            <div id=product_wrap2>
+                <img src="images/brand/fanta1.jpg" alt="마지막 한 방울까지 놓칠 수 없는 환상의 맛!
+                달콤한 과일향과 탄산의 상큼함이 살아있는 과일향 탄산음료 브랜드 ‘환타’는 1940년에 출시되어 코카-콜라 브랜드 중 두 번째로 긴 역사를 자랑한다." width="485" height="765">
+                <div>
+                    <p><strong>마지막 한 방울까지 놓칠 수 없는 환상의 맛&#33;</strong><br>
+                    달콤한 과일향과 탄산의 상큼함이 살아있는<br>과일향 탄산음료 브랜드 &lsquo;환타&rsquo;는 1940년에 출시되어<br>코카&ndash;콜라 브랜드 중 두 번째로 긴 역사를 자랑한다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap2 -->
+        </div><!-- product_fanta -->
+        <div id="product_sprite">
+            <div id=product_wrap3>
+                <img src="images/brand/sprite1.jpg" alt="상쾌함은 내 담당! 전 세계 젊은이들이 사랑하는 사이다 브랜드 스프라이트! 1961년 출시되어 200개국 이상에서 판매되고 있는 스프라이트는 입안 가득 퍼지는 풍부한 청량감과 상쾌함이 특징이다." width="485" height="765">
+                <div>
+                    <p><strong>상쾌하게 통한다&#33;</strong><br>상쾌함은 내 담당&#33;<br>전 세계 젊은이들이 사랑하는 사이다 브랜드 스프라이트&#33;<br>1961년 출시되어 200개국 이상에서 판매되고 있는<br>스프라이트는 입안 가득 퍼지는 풍부한 청량감과<br>상쾌함이 특징이다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap3 -->
+        </div><!-- product_sprite-->
+        <div id="product_jeorgia">
+            <div id=product_wrap4>
+                <img src="images/brand/georgia1.jpg" alt="마지막 한 방울까지 놓칠 수 없는 환상의 맛!
+                달콤한 과일향과 탄산의 상큼함이 살아있는 과일향 탄산음료 브랜드 ‘환타’는 1940년에 출시되어 코카-콜라 브랜드 중 두 번째로 긴 역사를 자랑한다." width="485" height="765">
+                <div>
+                    <p><strong>좋은 커피는 향으로 말한다&#33;</strong><br>일상 속 여유를 즐길 수 있는 조지아 커피는<br>즉석에서 마시는 캔 커피 브랜드로 커피 본연의 풍미를<br>고집하는 조지아만의 커피 철학과 노하우가 언제 어디서나<br>간편하게 즐기는 캔 커피에도 고스란히 담겨 있다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap4 -->
+        </div><!-- product_jeorgia-->
+        <div id="product_toreta">
+            <div id=product_wrap5>
+                <img src="images/brand/toreta1.jpg" alt="목마를 때 토레타! 니가 있어 좋타! 2015년 국내에서 출시된 데일리 수분보충음료 ‘토레타!’는 깔끔한 맛과 저칼로리로 내 몸이 수분을 원할 때 어디서나 가볍게 즐길 수 있다. 자몽, 백포도, 망고, 사과, 배, 감귤, 당근, 양배추, 레몬, 케일의 다채로운 10가지 과채 수분(총 과즙농축액 및 야채즙 0.4%)으로 지루할 틈 없이 갈증을 해소해준다." width="485" height="765">
+                <div>
+                    <p><strong>목마를 때 토레타&#33; 니가 있어 좋타&#33;</strong><br>2015년 국내에서 출시된 데일리 수분보충음료<br>&lsquo;토레타&#33;&rsquo;는깔끔한 맛과 저칼로리로 내 몸이 수분을 원할 때 어디서나 가볍게 즐길 수 있다&period;자몽&comma;백포도&comma;망고&comma;사과&comma;배&comma;<br>감귤&comma;당근&comma;양배추&comma;레몬&comma;케일의 다채로운 10가지<br>과채 수분으로 지루할 틈 없이갈증을 해소해준다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap5 -->
+        </div><!-- product_toreta -->
+        <div id="product_minute">
+            <div id=product_wrap6>
+                <img src="images/brand/minute1.jpg" alt="자연을 담다! 60년 이상의 노하우로 진정성을 담은 세계적인 주스 음료  브랜드, 미닛메이드.코카-콜라사는 1960년대 미닛메이드를 인수하며 탄산 음료가 아닌 종합음료를 제조하는 회사로서 새로운 행보를 시작했다." width="485" height="765">
+                <div>
+                    <p><strong>자연을 담다&#33;</strong><br>60년 이상의 노하우로 진정성을 담은 세계적인<br>주스 음료  브랜드 미닛메이드&period;<br>코카&ndash;콜라사는 1960년대 미닛메이드를 인수하며<br>탄산 음료가 아닌 종합음료를 제조하는 회사로서<br>새로운 행보를 시작했다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap6 -->
+        </div><!-- product_minute -->
+        <div id="product_powerade">
+            <div id=product_wrap7>
+                <img src="images/brand/powerade1.jpg" alt="파워의 끝에서 파워가 시작된다! 스포츠의 열정과 파워를 담은 저칼로리 스포츠 음료 ‘파워에이드’는 운동 후 수분을 보충해주고 갈증을 해소해준다.  FIFA 월드컵 등 글로벌 스포츠 이벤트를 후원하는 공식 음료로도 널리 알려져 있다." width="485" height="765">
+                <div>
+                    <p><strong>파워의 끝에서 파워가 시작된다&#33;</strong><br>스포츠의 열정과 파워를 담은 저칼로리 스포츠 음료<br>&lsquo;파워에이드&rsquo;는 운동 후 수분을 보충해주고<br>갈증을 해소해준다&period; FIFA 월드컵 등 글로벌 스포츠<br>이벤트를 후원하는 공식 음료로도 널리 알려져 있다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap7 -->
+        </div><!-- product_powerade -->
+        <div id="product_schweppes">
+            <div id=product_wrap8>
+                <img src="images/brand/schweppes1.jpg" alt="스파클링계의 신사, 부드러운 스파클링! 1792년 영국에서 출시 이후 오랫동안 사랑 받아온 전통 있는 스파클링 브랜드 ‘슈웹스’는 샴페인의 가볍고 우아한 거품처럼 톡톡 튀면서도 가벼운 상쾌함과 고급스러운 향이 특징이다." width="485" height="765">
+                <div>
+                    <p><strong>스파클링계의 신사&comma; 부드러운 스파클링&#33;</strong><br>1792년 영국에서 출시 이후 오랫동안 사랑 받아온<br>전통 있는 스파클링 브랜드 &lsquo;슈웹스&rsquo;는 샴페인의 가볍고<br>우아한 거품처럼 톡톡 튀면서도 가벼운 상쾌함과<br>고급스러운 향이 특징이다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap8 -->
+        </div><!-- product_schweppes -->
+        <div id="product_ambasa">
+            <div id=product_wrap9>
+                <img src="images/brand/ambasa1.jpg" alt="부드러운 밀키 소다! 밀크 베이스 탄산음료 ‘밀크소다 암바사’ 는 달콤함과 강하지 않은 탄산으로 누구나 부담 없이 마실 수 있다. 솜사탕처럼 달콤하고, 부드러우면서도 살짝 쏘는 맛이 여운처럼 남는 것이 매력적인 ‘밀키소다 암바사’는 1984년 출시되어 지난 30년간 꾸준히 소비자들의 사랑을 받고 있다." width="485" height="765">
+                <div>
+                    <p><strong>부드러운 밀키 소다&#33;</strong><br>밀크 베이스 탄산음료 &lsquo;밀크소다 암바사&rsquo; 는<br>달콤함과 강하지 않은 탄산으로 누구나 부담 없이<br>마실 수 있다&period; 솜사탕처럼 달콤하고&comma; 부드러우면서도<br>살짝 쏘는 맛이 여운처럼 남는 것이 매력적이다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap9 -->
+        </div><!-- product_ambasa -->
+        <div id="product_mate">
+            <div id=product_wrap10>
+                <img src="images/brand/mate1.jpg" alt="먹고, 마시고, 즐겨라! 2013년 국내에 선보인 ‘태양의 마테차’는 깔끔한 맛에 제로 칼로리가 특징이다. 커피, 녹차와 함께 세계 3대 차 중 하나로 알려져 있는 마테차는 탄력 있는 건강미, 흥겨운 쌈바, 정열적인 태양이 있는 남미에서 즐겨 마시는 것으로 알려져 있다. 언제 어디서나 부담 없이 라틴 스타일의 음료를 즐길 수 있다." width="485" height="765">
+                <div>
+                    <p><strong>먹고&comma; 마시고&comma; 즐겨라&#33;</strong><br>2013년 국내에 선보인 &lsquo;태양의 마테차&rsquo;는 깔끔한 맛에<br>제로 칼로리가 특징이다&period; 커피&comma; 녹차와 함께<br>세계 3대 차 중 하나로 알려져 있는 마테차는<br>탄력 있는 건강미&comma; 흥겨운 쌈바&comma; 정열적인 태양이 있는<br>남미에서 즐겨 마시는 것으로 알려져 있다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap10 -->	
+        </div><!-- product_mate -->
+        <div id="product_w_tea1">
+            <div id=product_wrap11>
+                <img src="images/brand/w_tea1.jpg" alt="식사 후 깔끔하게! 녹차, 우롱차, 홍차와 식이섬유가 함유된 차 음료의 탄생! 직접 우려낸 세 가지 차를 조화롭게 섞어 깔끔한 맛을 자랑하는 태양의 식후비법 W차. 1일 영양성분 기준치의 51%인 12.7g의 풍부한 식이섬유가 들어있어, 식사 후 깔끔한 마무리에 도움을 준다." width="485" height="765">
+                <div>
+                    <p><strong>식사 후 깔끔하게&#33;</strong><br>녹차&comma; 우롱차&comma; 홍차와 식이섬유가 함유된 차 음료의 탄생&#33;<br>직접 우려낸 세 가지 차를 조화롭게 섞어 깔끔한 맛을<br>자랑하는 태양의 식후비법 W차&period; 1일 영양성분 기준치의<br>51&percnt;인 12&period;7g의 풍부한 식이섬유가 들어있어&comma;<br>식사 후 깔끔한 마무리에 도움을 준다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap11 -->	
+        </div><!-- product_mate -->
+        <div id="product_canadadry">
+            <div id=product_wrap12>
+                <img src="images/brand/canadadry1.jpg" alt="즐길 줄 아는 사람들의 음료! 당신의 한 잔을 다채롭게 채운다! 1904년 캐나다에서 처음 선보인 캐나다 드라이는 드라이하고 깔끔한 맛으로 다양한 음료∙주류와 함께 또는 캐나다 드라이 그 자체로도 부담 없이 즐길 수 있는 탄산음료다. 캐나다 드라이와 함께 색다른 어른의 세계를 느낄 수 있다." width="485" height="765">
+                <div>
+                    <p><strong>즐길 줄 아는 사람들의 음료&#33;</strong><br>당신의 한 잔을 다채롭게 채운다&#33;<br>1904년 캐나다에서 처음 선보인 캐나다 드라이는<br>드라이하고 깔끔한 맛으로 다양한 음료&middot;주류와 함께 또는<br>캐나다 드라이 그 자체로도 부담 없이 즐길 수 있는<br>탄산음료다&period;
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap12 -->
+        </div><!-- product_canadadry -->
+        <div id="product_ades">
+            <div id=product_wrap13>
+                <img src="images/brand/ades1.jpg" alt="맛있게 마시는 아몬드, 씨앗의 힘! 이제 아몬드로 맛있는 한 끼 하세요! 1988년 아르헨티나에서 탄생한 아데스(Ades)는 ‘씨앗에서 비롯된 음식(Alimento de Semilla)’을 뜻한다. 아몬드의 영양소뿐만 아니라 비타민 E 등이 담겨 있어 식사 대용이나 간식으로도 안성맞춤!" width="485" height="765">
+                <div>
+                    <p><strong>맛있게 마시는 아몬드&comma; 씨앗의 힘&#33;</strong><br>이제 아몬드로 맛있는 한 끼 하세요&#33;<br>1988년 아르헨티나에서 탄생한 아데스(Ades)는<br>&lsquo;씨앗에서 비롯된 음식(Alimento de Semilla)&rsquo;을 뜻한다&period; 아몬드의 영양소뿐만 아니라 비타민 E 등이 담겨 있어 식사 대용이나 간식으로도 안성맞춤&#33;
+
+                    </p>
+                    <a href="#">더보기</a>
+                </div>
+            </div><!-- product_wrap13 -->
+        </div><!-- product_ades -->
+    </div><!-- brand_wrap -->
+</div><!-- brand_product_introduction -->
+
+<div id="cocacola_bottom_wrap">
+   <footer id="cocacola_bottom">
+      <div class="company_logo">
+         <div>
+              <a href="https://www.coca-colacompany.com/" target=_blank><img src="images/index/footer_logo.png" alt="코카콜라 컴퍼니 로고" width="334" height="54"></a>
+          </div>
+      </div><!--company_logo -->
+      <div class="bottom_middle">
+          <div id="bottom_center_wrap">
+            <address class="cocacola_korea">
+                <strong>한국 코카콜라</strong><br>
+                서울시 종로구 새문안로 68 흥국생명빌딩 18층  한국 코카-콜라 (110-786)<br>
+                코카-콜라 음료(주) 고객 상담실 : 080-024-5999 (상담시간:월 ~ 금 09:00 ~ 18:00)
+                <br>       
+            </address>
+            <address class="personal_information">
+                개인정보 보호책임자 : 박형재<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+                개인정보 취급자 : 박선희<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+            </address>
+            <ul class="bottom_menu">
+                <li><a href="join_terms.html">개인정보처리방침</a></li>
+                <li><a href="clause.html">이용약관</a></li>
+                <li><a href="monition.html">법적고지</a></li>
+                <li><a href="mailto:webmaster@cocacola.co.kr">CONTACT US</a></li>
+            </ul>
+           </div>
+           <div id="family_site">
+				<button>FAMILY SITE<span class="updown">∧</span></button>
+					<ul>
+						<li><a href="https://www.coca-cola.com/" target="_blank">Coca-Cola</a></li>		
+						<li><a href="https://www.coca-colacompany.com/" target="_blank">Coca-Cola Company</a></li>
+						<li><a href="https://brand.naver.com/cocacola" target="_blank">코카-콜라 공식 스토어 </a></li>
+						<li><a href="http://www.ccbk.co.kr/index.jsp" target="_blank">㈜ 코카-콜라 음료</a></li>
+					</ul>
+			</div><!-- family_site -->
+       </div><!-- class="bottom_middle" -->
+       <div class="bottom_right">
+           <div>
+            <address class="cocacola_bottling_korea">
+                <strong>코카-콜라 음료(주)</strong>
+                경상남도 양산시 충렬로 269 유산동 <br>
+                사업자등록번호 102-81-411121<br>
+                대표이사 : 이정애            
+            </address>
+            <ul class="cocacola_sns_icon">
+                <li><a href="https://www.facebook.com/Coca-Cola/" target=_blank><img src="images/index/sns_01.png" alt="페이스북 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.instagram.com/coke.style" target=_blank><img src="images/index/sns_02.png" alt="인스타그램 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://twitter.com/CocaCola_Korea" target=_blank><img src="images/index/sns_03.png" alt="트위터 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.youtube.com/channel/UCzCxSb_RYZuaiaP3u9QNR_A" target=_blank><img src="images/index/sns_04.png" alt="유튜브 아이콘" width="43" height="42"></a></li>
+            </ul><!-- cocacola_sns_icon -->
+            <section class="cocacola_copyright">
+                <h6>COPYRIGHT &#169; COCA-COLA BEVERAGE COMPANY. ALL RIGHTS RESERVED.</h6>
+            </section><!-- cocacola_copyright -->
+          </div>
+          <i class="material-icons" id="top_icon">&#xe5d8;</i>
+       </div><!-- bottom_right -->
+   </footer><!-- cocacola_bottom -->
+</div><!-- cocacola_bottom_wrap 전체 하단 -->
+</body>
+</html>

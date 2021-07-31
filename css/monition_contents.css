@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+#all_wrap{
+	width:1400px; 
+    height:auto; 
+    margin:30px auto;
+    text-align:justify;
+    word-spacing:0.2em;
+    padding-right:1em;
+    padding-left:1em;
+    box-sizing:border-box;
+    margin-bottom:200px;    
+}
+#all_wrap h2{
+	font-weight:bold;
+	font-size:17px;
+	margin-bottom:15px;
+}
+#all_wrap hr{
+	margin-bottom:15px;
+}
+#all_wrap p{
+	font-size:14px;
+}
+.monition_2,.monition_3,.monition_4,.monition_5,.monition_7,.monition_11,.monition_12,.monition_15,.monition_16,.monition_18,.monition_20{
+	width:1400px;
+    margin-top:30px; 
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.monition_1 span{
+    font-weight:bold;
+    color:#a2171e;
+    font-size:14px;
+}
+.monition_1{
+	font-size:14px;	
+}
+.monition_ol_1 li,.monition_ol_2 li , .monition_ol_3 li, .monition_ol_4 li, .monition_ol_5, .monition_ol_6 li{
+	margin-left:15px;
+	font-size:14px;
+    display:block;
+	margin-bottom:8px;	
+}
+.monition_ul_1 li{
+ 	display:block;
+	font-size:13px;
+	margin-bottom:3px;	
+}
+.monition_ul_1 li:nth-child(1){
+	margin-left:0em;
+	font-size:14px;
+	margin-bottom:10px;
+	text-decoration:none;	
+}
+.monition_ul_1 li:nth-child(4){
+	margin-bottom:10px;
+}
+.monition_6{
+	padding-left:1em;
+}
+.monition_8{
+	margin-bottom:10px;
+	padding-left:1em;
+}
+.monition_9,.monition_10{
+	margin-bottom:10px;
+	text-indent:1em;
+}
+.monition_ol_4 li{
+	margin-bottom:3px;
+
+}
+.monition_ul_2{
+	margin-top:8px;
+}
+.monition_ul_2 li{
+	margin-left:1.5em;
+	margin-bottom:3px;
+	font-size:13px;
+}
+.monition_ul_2 li:nth-child(4){
+	margin-bottom:10px;
+}
+.monition_11_1{
+	padding-left:1em;
+}
+.monition_13{
+	padding-left:1em;
+	margin-bottom:10px;
+}
+.monition_14 a{
+	display:block;
+	font-size:13px; 
+	text-indent:1em;
+}
+.monition_14 a:hover{
+	 text-decoration:underline;
+}
+.monition_ol_5 li{
+	font-size:14px;
+	margin-bottom:10px;
+}
+.monition_17{
+	padding-left:1em;
+}
+.monition_19{
+	padding-left:1em;
+}
+.monition_19 a:hover{
+	text-decoration:underline;
+}
+.monition_ol_6 li{
+	font-size:14px;
+	margin-bottom:3px;
+}
