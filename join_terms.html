@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>코카-콜라 저니: 한국 코카-콜라(리뉴얼)</title>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/common.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout_terms.css">
+<link rel="shortcut icon" href="images/coke_favi.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+<header id="cocacola_headtop">
+	<div id="cocacola_top">
+		<div id="cocacola_left">
+			<h1><a href="index.html"><img src="images/index/logo.png" alt="코카콜라" width="110" height ="110"></a></h1>
+		</div><!--cocacola_logo -->
+	<nav id="cocacola_menu_navi">
+		<ul>
+			<li><a href="brand.html">Brand</a></li>
+			<li><a href="coke_story.html">Co-ke Story</a></li>
+			<li><a href="life.html">Life</a></li>
+			<li><a href="community.html">Community</a></li>
+			<li><a href="videos.html">Video</a></li>
+			<li><a href="company.html">Company</a></li>
+		</ul>
+	</nav><!-- cocacola_menu_navi 브랜드, 코크스토리.. -->	
+	
+	<ul id="cocacola_right">
+		<li class="login_join"><a href="login.html">Login</a></li>
+		<!-- login 로그인,회원가입 -->
+		<li class="mypage"><a href="join.html">My</a></li>
+		<!-- mypage 마이페이지 -->	
+
+		<li class="search"><i class="material-icons">&#xe8b6;</i>
+		    <p>	       
+                <span>         	  
+                    <label for="coke_search"></label>
+                    <input type="text" id="coke_search" autocomplete="off">
+                    <button type="button" id="search_button">검색</button>
+                </span>
+		    </p>
+        </li><!-- search 게시글 검색 -->
+
+			<li class="cocacola_world"><i class="material-icons">&#xe80b;</i>	
+          <!-- js 추가 -->
+           <div id="world_coke_wrap">
+              <ul id="n_africa">
+                   <li class="title">NORTH AMERICA</li>
+                   <li><a href="https://us.coca-cola.com/" target="_blank">United States</a></li>
+                   <li><a href="https://www.coca-cola.ca/" target="_blank" title="English">Canada</a></li>
+                   <li><a href="https://fr.coca-cola.ca/" target="_blank" title="Français">Canada</a></li>
+             </ul><!-- n_africa -->
+             
+             <ul id="l_america">
+                 <li class="title">LATIN AMERICA</li>
+                 <li><a href="https://www.cocacolalatinamerica.com/ar/es/home" target="_blank">Argentina</a></li>
+                 <li><a href="http://www.coca-cola.com.bz/">Belize</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/bo/es/home" target="_blank">Bolivia</a></li>
+                 <li><a href="https://www.coca-cola.com.br/" target="_blank" title="Brazil">Brasil</a></li>
+                 <li><a href="http://www.caribbean.coca-cola.com/">Caribbean</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/cl/es/home" target="_blank">Chile</a></li>
+                 <li><a href="https://www.coca-cola.com.co/co/es/home">Colombia</a></li>
+                 <li><a href="http://www.coca-cola.co.cr/">Costa Rica</a></li>
+                 <li title="República Dominicana"><a href="https://www.coca-cola.com.co/do/es/home">Dominican Republic</a></li>
+                 <li><a href="http://www.coca-cola.com.ec/">Ecuador</a></li>
+                 <li><a href="http://www.coca-cola.com.sv/">El Salvador</a></li>
+                 <li><a href="http://www.coca-cola.com.gt/">Guatemala</a></li>
+                 <li><a href="http://www.coca-cola.com.hn/">Honduras</a></li>
+                 <li><a href="https://www.coca-cola.com.co/jm/en/home">Jamaica</a></li>
+                 <li><a href="https://www.coca-colamexico.com.mx/" target="_blank">México</a></li>
+                 <li><a href="http://www.coca-cola.com.ni/">Nicaragua</a></li>
+                 <li><a href="http://www.coca-cola.com.pa/">Panamá</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/pe/es/home" target="_blank">Paraguay</a></li>
+                 <li><a href="http://www.coca-cola.com.pe/">Perú</a></li>
+                 <li><a href="https://www.coca-cola.com.co/tt/en/home">Trinidad and Tobago</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/uy/es/home" target="_blank">Uruguay</a></li>
+                 <li><a href="http://www.coca-cola.com.ve/">Venezuela</a></li>
+             </ul><!-- l_america --> 
+             <ul id="europe">
+                 <li class="title">EUROPE</li>
+                 <li><a href="https://www.coca-cola-oesterreich.at/marken/coca-cola" target="_blank" title="Österreich">Austria</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="Belgique">Belgium</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="België">Belgium</a></li>
+                 <li><a href="https://www.coca-cola.ba/" target="_blank" title="Bosna i Hercegovina">Bosnia</a></li>
+                 <li><a href="https://www.coca-cola.bg/" target="_blank" title="България">Bulgaria</a></li>
+                 <li><a href="https://www.coca-cola.hr/" target="_blank" title="Hrvatska">Croatia</a></li>
+                 <li><a href="https://www.coca-cola.cz/" target="_blank" title="Česká Republika">Czech Republic</a></li>
+                 <li><a href="https://www.coca-cola.dk/" target="_blank" title="Danmark">Denmark</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Eesti">Estonia</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Suomi">Finland</a></li>
+                 <li><a href="https://www.coca-cola-france.fr/" target="_blank">France</a></li>
+                 <li><a href="https://www.coca-cola-deutschland.de/" target="_blank" title="Deutschland">Germany</a></li>
+                 <li><a href="https://www.coca-cola.co.uk/" target="_blank">Great Britain</a></li>
+                 <li><a href="https://www.coca-cola.gr/el/home/" target="_blank" title="Ελλάδα">Greece</a></li>
+                 <li><a href="https://www.coca-cola.hu/" target="_blank" title="Magyarország">Hungary</a></li>
+                 <li><a href="http://www.coke.is/" target="_blank" title="Ísland">Iceland</a></li>
+                 <li><a href="https://www.coca-cola.ie/" target="_blank">Ireland</a></li>
+                 <li><a href="https://www.coca-colaitalia.it/brands/coca-cola" target="_blank" title="Italia">Italy</a></li>
+                 <li><a href="https://www.coca-cola.lv/" target="_blank" title="Latvija">Latvia</a></li>
+                 <li><a href="https://www.coca-cola.lt/" target="_blank" title="Lietuva">Lithuania</a></li>
+                 <li><a href="https://fr.coca-cola.be/mieux-nous-connaitre/a-propos-de-coca-cola/faits-et-chiffres-sur-coca-cola" target="_blank">Luxembourg</a></li>
+                 <li><a href="https://www.cocacolanederland.nl/" target="_blank" title="Nederland">Netherlands</a></li>
+                 <li><a href="https://www.coca-cola.no/" target="_blank" title="Norge">Norway</a></li>
+                 <li><a href="https://www.coca-cola.pl/" target="_blank" title="Polska">Poland</a></li>
+                 <li><a href="http://www.cocacola.pt/" target="_blank">Portugal</a></li>
+                 <li><a href="http://www.coca-cola.ro/" target="_blank" title="România">Romania</a></li>
+                 <li><a href="https://www.coca-cola.rs/" target="_blank" title="Srbija">Serbia</a></li>
+                 <li><a href="https://www.coca-cola.sk/" target="_blank" title="Slovensko">Slovakia</a></li>
+                 <li><a href="http://www.coca-cola.si/" target="_blank" title="Slovenija">Slovenia</a></li>
+                 <li><a href="https://www.cocacola.es/es/home/" target="_blank" title="España">Spain</a></li>
+                 <li><a href="https://www.coca-cola.se/" target="_blank" title="Sverige">Sweden</a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Schweiz">Switzerland </a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Suisse">Switzerland</a></li>
+             </ul><!-- europe --> 
+             <ul id="eurasia">
+                 <li class="title">EURASIA</li>
+                 <li><a href="http://www.coca-cola.am/" target="_blank">Armenia</a></li>
+                 <li><a href="http://www.coca-cola.az/" target="_blank" title="Azərbaycan">Azerbaijan</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Bahrain</a></li>
+                 <li><a href="http://coca-cola.by/" target="_blank" title="Беларусь">Belarus</a></li>
+                 <li><a href="http://ge.coca-cola.com/" target="_blank">Georgia</a></li>
+                 <li><a href="http://www.coca-cola.in/" target="_blank">India</a></li>
+                 <li><a href="http://cocacola.co.il/" target="_blank" title="ישראל">Israel</a></li>
+                 <li><a href="http://www.coca-cola.kz/kk/home/" target="_blank" title="Казахстан">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.kz/ru/home/" target="_blank" title="Русский">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.com.pk/" target="_blank">Pakistan</a></li>
+                 <li><a href="http://www.coca-cola.ps/" target="_blank">Palestinian Territories</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Qatar</a></li>
+                 <li><a href="http://www.coca-cola.ru/" target="_blank" title="Россия">Russia</a></li>
+                 <li><a href="http://www.coca-cola.com.tr/" target="_blank" title="Україна">Ukraine</a></li>
+                 <li><a href="http://www.coca-cola.ua/" target="_blank">United Arab Emirates</a></li>
+             </ul><!-- eurasia --> 
+             <ul id="africa">
+                 <li class="title">AFRICA</li>
+                 <li><a href="http://www.coca-cola.dz/ar/home/" target="_blank" title="العربية">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.dz/fr/home/" target="_blank" title="français">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Angola</a></li>
+                 <li><a href="http://www.coca-cola.com/bo/" target="_blank">Botswana</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Congo</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Democratic Republic of Congo</a></li>
+                 <li><a href="http://www.coca-cola.com/dji" target="_blank">Djibouti</a></li>
+                 <li><a href="http://www.coke.eg/en/home/" target="_blank">Egypt</a></li>
+                 <li><a href="http://www.coke.eg/ar/home/" target="_blank" title="مصر">Egypt</a></li>
+                 <li><a href="http://www.coca-cola.com/et" target="_blank">Ethiopia</a></li>
+                 <li><a href="http://www.coca-cola.co.ke/" target="_blank">Kenya</a></li>
+                 <li><a href="http://www.coca-cola.com/le" target="_blank">Lesotho</a></li>
+                 <li><a href="#">Madagascar</a></li>
+                 <li><a href="http://www.coca-cola.com/mal" target="_blank">Malawi</a></li>
+                 <li><a href="http://www.coca-cola.mu/en/home" target="_blank">Mauritius</a></li>
+                 <li><a href="http://www.coca-cola.ma/" target="_blank">Morocco</a></li>
+                 <li><a href="http://www.coca-cola.co.mz/" target="_blank">Mozambique</a></li>
+                 <li><a href="http://www.coca-cola.com/na" target="_blank">Namibia</a></li>
+                 <li><a href="http://www.coca-cola.com/ng" target="_blank">Nigeria</a></li>
+                 <li><a href="http://www.coca-cola.rw/" target="_blank">Rwanda</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Somalia</a></li>
+                 <li><a href="https://www.coke.co.za/" target="_blank">South Africa</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Swaziland</a></li>
+                 <li><a href="http://www.coca-cola.co.tz/" target="_blank">Tanzania</a></li>
+                 <li><a href="http://tunisia.coca-cola.com/language-selector/" target="_blank">Tunisia</a></li>
+                 <li><a href="http://www.coca-cola.co.ug/" target="_blank">Uganda</a></li>
+                 <li><a href="http://www.coca-cola.com/zm" target="_blank">Zambia</a></li>
+                 <li><a href="http://zw.coca-cola.com/en/home/" target="_blank">Zimbabwe</a></li>
+             </ul><!-- africa -->
+             <ul id="asia">
+                 <li class="title">ASIA PACIFIC</li>
+                 <li><a href="https://www.coca-cola.com.au/" target="_blank">Australia</a></li>
+                 <li><a href="http://www.coca-cola.com.bd/" target="_blank">Bangladesh</a></li>
+                 <li><a href="http://www.coca-cola.co.id/" target="_blank">Indonesia</a></li>
+                 <li><a href="http://www.cocacola.jp/" target="_blank" title="日本">Japan</a></li>
+                 <li><a href="http://www.coke.com.my/" target="_blank">Malaysia</a></li>
+                 <li><a href="http://mv.coca-cola.com/en/home/" target="_blank">Maldives</a></li>
+                 <li><a href="https://www.coke.co.nz/" target="_blank">New Zealand</a></li>
+                 <li><a href="http://www.coca-cola.com.ph/" target="_blank">Philippines</a></li>
+                 <li><a href="http://www.cocacola.co.kr/" target="_blank" title="대한민국">Republic of Korea</a></li>
+                 <li><a href="http://www.coca-cola.com.sg/" target="_blank">Republic of Singapore</a></li>
+                 <li><a href="http://lk.coca-cola.com/" target="_blank">Sri Lanka</a></li>
+                 <li><a href="https://www.coca-cola.com.cn/" target="_blank">China</a></li>
+                 <li><a href="http://www.icoke.hk/" target="_blank">Hong Kong</a></li>
+                 <li><a href="http://www.coke.com.tw/zh/home/" target="_blank">Taiwan</a></li>
+                 <li><a href="https://www.coca-cola.co.th/" target="_blank" title="ไทย">Thailand</a></li>
+                 <li><a href="http://www.coca-cola.vn/vi/home/" target="_blank">Vietnam</a></li>
+             </ul><!-- asia -->              
+           </div><!-- world_coke_wrap -->            
+		</li><!-- cocacola_world 전세계 코카콜라 사이트맵 -->
+		
+	</ul><!-- cocacola_right -->
+	</div> <!-- cocacola_top 로고, 메뉴, 로그인 ...-->
+</header><!--cocacola_headtop 전체상단-->
+
+<div id="all">
+   <h2>개인정보처리방침</h2>
+   <hr>
+    <p class="a_coke"><span>한국 코카-콜라 유한회사 </span>(이하 “회사”라 칭함)의 <span>코카-콜라 저니 사이트</span>(이하 “웹사이트”)에 오신 것을 환영합니다.  회사는 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보 보호법에 따라 회원의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 회원의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리 방침을 두고 있습니다. 회사는 개인정보취급방침을 개정하는 경우 웹사이트 공지사항을 통하여 공지할 것입니다. </p>
+    
+    <ol class="a_ol">
+        <li><a href="#num1">1. <span>수집하는 개인정보의 항목 및 이용목적</span></a></li>
+        <li><a href="#d_coke">2. <span>수집하는 개인정보 항목 및 방법</span></a></li>
+        <li><a href="#f_coke">3. <span>만 14세 미만의 개인정보보호</span></a></li>
+        <li><a href="#h_coke">4. <span>개인정보의 제공</span></a></li>
+        <li><a href="#i_coke">5. <span>개인정보의 처리위탁</span></a></li>
+            <li><a href="#n_coke">6. <span>이용자 및 법정대리인의 권리와 그 행사방법</span></a></li>
+            <li><a href="#p_coke">7. <span>개인정보 자동수집 장치의 설치ㆍ운영 및 그 거부에 관한 사항</span></a></li>
+        <li><a href="#t_coke">8. <span>개인정보의 기술적/관리적 보호대책</span></a></li>
+        <li><a href="#z_coke">9. <span>개인정보 전담조직 운영</span></a></li>
+        <li class="a_ol10"><a href="#dd">10. 기타 개인정보 처리에 관한 방침</a></li>
+        <li class="a_ol10"><a href="#ee">11. 고지의무</a></li>
+    </ol>
+    <h3 id="num1">1. 수집하는 개인정보의 항목 및 이용목적</h3>
+    <p class="num1_txt">회사는 정보주체가 수집하는 개인정보의 범위는 아래와 같습니다.</p>
+    <table class="b_coke">
+        <caption>수집하는 개인정보의 항목 및 이용목적</caption>
+        <tr>
+            <th scope="col" id="collect_list">수집항목</th>
+            <th scope="col" id="use_purpose">이용목적</th>
+        </tr>
+        <tr>
+            <td headers="collect_list">이름</td>
+            <td headers="use_purpose">이벤트 응모 및 문의 응대 시 본인 확인</td>
+        </tr>
+        <tr>
+            <td headers="collect_list">휴대전화번호</td>
+            <td headers="use_purpose">이벤트 응모 및 문의 응대, 공지 전달</td>
+        </tr>        
+        <tr>
+            <td headers="collect_list">주소</td>
+            <td headers="use_purpose">이벤트 경품 배송</td>
+        </tr>        
+        <tr>
+            <td headers="collect_list">서비스 이용기록</td>
+            <td headers="use_purpose">뉴스레터 발송, 신청자 정보 확인, 문의응대 및 공지 전달</td>
+        </tr>        
+       <tr>
+            <td headers="collect_list">이메일 주소</td>
+            <td headers="use_purpose">사용자 서비스 개선</td>
+        </tr>        
+       <tr>
+            <td headers="collect_list">접속로그</td>
+            <td headers="use_purpose">사용자 서비스 개선</td>
+        </tr>        
+       <tr>
+            <td headers="collect_list">쿠키 (브라우저 설정을 통해 승인/거절 가능)</td>
+            <td headers="use_purpose">사용자 편의제공 개선  </td>
+        </tr>
+    </table><!-- b_table -->
+    <p class="c_coke">개인정보 정보주체는 개인정보 수집에 대해 ‘동의’ 또는 ‘동의하지 않는다’ 버튼을 선택 및 클릭(click) 할 수 있습니다. 정보주체가 ‘동의’ 버튼을 클릭한 경우에는 개인정보 수집에 동의한 것으로 봅니다.</p>
+    
+    <p id="d_coke">2. 쿠키에 의한 개인정보 수집</p>
+    <p class="e_coke">회사는 보다 나은 서비스의 제공을 위하여 부분적으로 쿠키를 운영하고 있습니다. 쿠키는 서비스제공자의 웹사이트서버가 정보주체의 컴퓨터 브라우저로 전송하는 소량의 정보로 정보주체가 방문한 웹사이트 정보 및 개인정보 등이 담겨 있습니다. 쿠키는 정보주체의 컴퓨터 브라우저를 식별하나 정보주체를 개인적으로 식별할 수 없으며 회사는 쿠키를 통하여 암호화된 개인정보를 수집하고 있습니다. 각 정보주체는 웹브라우저의 옵션을 조정함으로써 모든 쿠키를 받아들이거나, 쿠키 설치 시 별도의 통지를 보내도록 하거나 또는 모든 쿠키를 거부할 수 있는 선택권을 갖습니다. 단, 정보주체가 쿠키 설치를 거부하였을 경우에는 웹사이트 이용에 어려움이 있을 수 있습니다. </p>
+    
+    <p id="f_coke">3. 만14세미만의 개인정보보호</p>
+    <p class="g_coke">만 14세미만의 어린이는 개인정보 제공 시 법정대리인의 동의를 받아야 합니다. 법정대리인은 언제든지 어린이의 개인정보의 열람, 정정, 일부 정보 삭제, 동의 철회등을 회사에 요청할 수 있으며, 이러한 요청에 대하여 회사는 지체 없이 필요한 조치를 취하여야 합니다. </p>
+    
+    <p id="h_coke">4. 개인정보의 보유 및 이용기간</p>
+    <ol class="h_ol">
+        <li>회사는 법령에 따른 개인정보 보유 이용기간 또는 정보주체로부터 개인정보를 수집시에 동의 받은 개인정보 보유,이용기간 내에 한하여 개인정보를 보유 및 처리합니다.</li>
+        <li>개인정보의 수집 및 이용에 대한 동의를 철회하는 경우, 수집 및 이용목적이 달성되거나 보유 및 이용기간이 종료한 경우 해당 개인정보를 지체 없이 파기합니다. 단, 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 해당사항이 있는 경우에 한하여 관계법령에서 정한 일정한 기간동안 회원정보를 보관합니다.</li>
+    </ol>
+    
+    <p id="i_coke">5. 개인정보의 파기 절차 및 방법</p>
+    <p class="j_coke">파기 절차</p>
+    <p class="k_coke">개인정보의 수집 및 이용에 대한 동의를 철회하는 경우, 수집 및 이용목적이 달성되거나 보유 및 이용기간이 종료한 경우 개인을 식별할 수 있는 고유한 정보들은 즉시 삭제되며, 어떤 이유나 방법으로도 재생되거나 이용할 수 없도록 처리됩니다. 단, ‘4. 개인정보의 보유 및 이용기간’에 명시한 관계법령에 의해 보존할 필요가 있을 경우에는 개인정보를 기술적으로 분리하여 보관합니다. 다만 수집목적 또는 제공받은 목적이 달성된 경우에도 상법 등 법령의 규정에 의하여 보존할 필요성이 있는 경우에 한하여 회원의 개인정보를 보유할 수 있습니다. 이 경우 해당 개인 정보는 보관의 목적으로만 관리합니다.</p>
+    <p class="l_coke">파기방법</p>
+    <p class="m_coke">전자적 파일 형태의 정보는 기록을 재생할 수 없는 기술적 방법을 사용합니다. 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기합니다</p>
+    
+    <p id="n_coke">6. 수탁업체 및 제3자에 대한 개인정보의 제공 및 공유 방침</p>
+    <p class="o_coke">회사는 제 1조에서 명시한 이용목적 이외의 용도로 개인정보를 사용하지 않으며, 합리적이고 정당한 이유 없이 함부로 타인 또는 외부에 유출하거나, 어떠한 경우에도 영리의 목적으로 회원의 개인정보를 양도하거나 매매하지 않습니다. 만일, 회사가 서비스 제공을 위하여 개인정보를 대행사 등 수탁업체와 공유하는 경우 회사는 [개인정보보호법]에 의하여 사전에 개인정보를 제공받는 수탁업체명, 제공되는 개인정보의 구체적인 항목, 제공 목적 등을 회원에게 고지할 것이며, [개인정보보호법] 에 따라 회원의 동의를 구하지 않는 경우, 해당 회원의 개인정보를 고지된 수탁업체 이외의 제3자에게 제공하거나 공유하지 않겠습니다. </p>
+    
+    <p id="p_coke">7. 수집하는 대인정보의 위탁</p>
+
+    <p class="q_coke">회사는 원활한 개인정보 업무처리를 위하여 웹사이트운영과 관련하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.</p>
+    
+    <p class="r_coke">수탁업체</p>
+    
+    <table class="r_table">
+        <caption>수탁 업체명 위탁 업무의 내용 보유 정보 보유기간</caption>
+        <tr>
+            <th scope="col" id="consignment">수탁 업체명</th>
+            <th scope="col" id="consignment_content">위탁 업무의 내용</th>
+            <th scope="col" id="possession_information">보유 정보</th>
+            <th scope="col" id="possession_term">보유 기간</th>
+        </tr>
+        <tr>
+            <td rowspan="2" id="company" headers="consignment">(주)도모브로더</td>
+            <td headers="consignment_content">뉴스레터 발송</td>
+            <td headers="possession_information">이메일주소</td>
+            <td headers="possession_term">개인정보수집 목적 달성 즉시 파기</td>
+        </tr>
+        <tr>
+            <td headers="consignment_content">온라인 이벤트 참여기회 제공 및 당첨자 경품배송을 위한 연락</td>
+            <td headers="possession_information">성명, 연락번호, 주소</td>
+            <td headers="possession_term">개인정보수집 목적 달성 즉시 파기</td>
+        </tr>
+    </table>
+    
+    <p class="s_coke">회사는 위탁계약 시 개인정보보호 관련 법규의 준수, 개인정보에 관한 제3자 제공 금지 및 책임부담 등을 명확히 규정하고, 당해 계약내용을 서면 및 전자 보관하고 있습니다. 동 업체가 변경될 경우, 회사 웹사이트 내 공지사항 및 [개인정보처리방침]을 통해 즉시 고지합니다.</p>
+    
+    <p id="t_coke">8. 정보주체의 권리, 의무 및 그 행사방법</p>
+    <p class="u_coke">정보주체는 개인정보주체로서 다음과 같은 권리를 행사할 수 있습니다.</p>
+    <p class="v_coke">가. 정보주체는 회사에 대해 언제든지 다음 각 호의 개인정보 보호 관련 권리를 행사할 수 있습니다.</p>
+    <ul class="v_ul">
+        <li>개인정보 열람요구</li>
+        <li>개인정보에 오류 등이 있을 경우에 회사에 대하여 정정 요구</li>
+        <li>개인정보 삭제요구</li>
+        <li> 개인정보 처리 보류 요구</li>
+    </ul>
+    <p class="w_coke">나. 위에 따른 정보주체의 권리 행사는 개인정보 보호법 시행규칙에 따라 서면, 전자우편, 팩시밀리(FAX) 등을 통하여 하실 수 있으며 회사는 이에 대해 지체 없이 조치하겠습니다.</p>
+    <p class="x_coke">다. 정보주체가 개인정보의 오류 등에 대한 정정 또는 삭제를 요구한 경우에는 정정 또는 삭제를 완료할 때까지 당해 개인정보를 이용하거나 제공하지 않습니다.</p>
+    <p class="y_coke">라. ‘가’항 에 따른 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 개인정보 보호법 시행규칙 별지 제11호 서식에 따른 위임장을 제출하셔야 합니다.</p>
+    
+    <p id="z_coke">9. 개인정보의 안전성 확보 조치</p>
+    <p class="aa">회사는 [개인정보보호법] 제29조에 따라 다음과 같이 안전성 확보에 필요한 기술적, 관리적 안전성 확보 조치를 취하고 있습니다.</p> 
+
+    <p class="bb">가. 기술적 안전성 확보 조치</p>
+    <ul class="bb_ul">
+        <li>회사는 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여 보안프로그램을 설치하고 주기적인 갱신 및 점검을 하며 외부로부터 접근이 통제된 구역에 시스템을 설치하고 기술적/물리적으로 감시 및 차단하고 있습니다.</li>
+        <li>개인정보취급자가 개인정보처리시스템에 접속한 기록을 최소 6개월 이상 보관, 관리하고 있으며, 접속 기록이 위변조 및 도난, 분실되지 않도록 보안기능 사용하고 있습니다.</li>
+        <li>개인정보를 보관하고 있는 물리적 보관 장소를 별도로 두고 이에 대해 출입통제 절차를 수립, 운영하고 있습니다.</li>
+        <li> 개인정보를 처리하는 데이터베이스시스템에 대한 접근권한의 부여,변경,말소를 통하여 개인정보에 대한 접근통제를 위하여 필요한 조치를 하고 있으며 침입차단시스템을 이용하여 외부로부터의 무단 접근을 통제하고 있습니다.</li>
+        <li>정보주체의 개인정보는 비밀번호는 암호화 되어 저장 및 관리되고 있어, 본인만이 알 수 있으며 중요한 데이터는 파일 및 전송 데이터를 암호화 하거나 파일 잠금 기능을 사용하는 등의 별도 보안기능을 사용하고 있습니다.</li>
+        <li> 개인정보가 포함된 서류, 보조저장매체 등을 잠금장치가 있는 안전한 장소에 보관하고 있습니다.</li>
+    </ul>
+    <p class="cc">나. 관리적 안전성 확보 조치</p>
+    <ul class="cc_ul">
+        <li>개인정보의 안전한 처리를 위하여 ‘내부관리계획’을 수립하여시행하고 있습니다.</li>
+        <li>회사 내부의 ‘Privacy Policy’를 수립하고 시행하여 개인정보보호를 강화하였습니다. </li>
+        <li>개인정보 처리 관련 안정성 확보를 위하여 정기적(분기 1회)으로 자체적인 감사를 실시하고 있습니다.</li>
+        <li>개인정보를 처리하는 직원을 지정하고 담당자에 한정시켜 최소화 하여 개인정보를 관리하는 대책을 시행하고 있습니다.</li>
+    </ul>
+    <p id="dd">10. 개인정보처리방침의 변경 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.</p>
+    
+    <p id="ee">11. 권리 침해 구제방법</p>
+    <p class="ff">개인정보주체는 개인정보침해로 인한 구제를 받기 위하여 개인정보분쟁조정위원회, 한국인터넷진흥원 개인정보침해신고센터 등에 분쟁해결이나 상담 등을 신청할 수 있습니다.이 밖에 기타 개인정보침해의 신고 및 상담에 대하여는 아래의 기관에 문의하시기를 바랍니다.</p>
+    <ol class="ff_ol">
+        <li><a href="https://privacy.kisa.or.kr/" target="_blank">개인정보침해신고센터</a></li>
+        <li><a href="https://www.spo.go.kr/" target="_blank">대검찰청 인터넷범죄수사센터</a></li>
+        <li><a href="https://ecrm.cyber.go.kr/" target="_blank">경찰청 사이버테러대응센터</a></li>
+    </ol>
+    <p id="gg">12. 개인정보보호책임자 및 담당자</p>
+    <p class="hh">회사는 웹사이트 상 정보주체의 개인정보를 보호하고 개인정보와 관련한 불만을 처리하기 위하여 아래와 같이 개인정보 보호책임자 및 실무담당자를 지정하고 있습니다.</p>
+    <ol class="hh_ol_1">
+        <li>개인정보 보호책임자</li>
+        <li>담당부서: 홍보부</li>
+        <li>성명: 박형재</li>
+        <li>전화번호 : 02-3271-3071</li>
+        <li>이메일: webmaster@cocacola.co.kr</li>
+    </ol>
+    <ol class="hh_ol_2">
+        <li>개인정보취급자</li>
+        <li>담당부서: 홍보부</li>
+        <li>성명: 박선희</li>
+        <li>전화번호: 02-3271-3071</li>
+        <li>이메일: webmaster@cocacola.co.kr</li>
+    </ol>
+</div> <!-- all --> 
+
+<div id="cocacola_bottom_wrap">
+   <footer id="cocacola_bottom">
+      <div class="company_logo">
+         <div>
+              <a href="https://www.coca-colacompany.com/" target=_blank><img src="images/index/footer_logo.png" alt="코카콜라 컴퍼니 로고" width="334" height="54"></a>
+          </div>
+      </div><!--company_logo -->
+      <div class="bottom_middle">
+          <div id="bottom_center_wrap">
+            <address class="cocacola_korea">
+                <strong>한국 코카콜라</strong><br>
+                서울시 종로구 새문안로 68 흥국생명빌딩 18층  한국 코카-콜라 (110-786)<br>
+                코카-콜라 음료(주) 고객 상담실 : 080-024-5999 (상담시간:월 ~ 금 09:00 ~ 18:00)
+                <br>       
+            </address>
+            <address class="personal_information">
+                개인정보 보호책임자 : 박형재<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+                개인정보 취급자 : 박선희<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+            </address>
+            <ul class="bottom_menu">
+                <li><a href="join_terms.html">개인정보처리방침</a></li>
+                <li><a href="clause.html">이용약관</a></li>
+                <li><a href="monition.html">법적고지</a></li>
+                <li><a href="mailto:webmaster@cocacola.co.kr">CONTACT US</a></li>
+            </ul>
+           </div>
+           <div id="family_site">
+				<button>FAMILY SITE<span class="updown">∧</span></button>
+					<ul>
+						<li><a href="https://www.coca-cola.com/" target="_blank">Coca-Cola</a></li>		
+						<li><a href="https://www.coca-colacompany.com/" target="_blank">Coca-Cola Company</a></li>
+						<li><a href="https://brand.naver.com/cocacola" target="_blank">코카-콜라 공식 스토어 </a></li>
+						<li><a href="http://www.ccbk.co.kr/index.jsp" target="_blank">㈜ 코카-콜라 음료</a></li>
+					</ul>
+			</div><!-- family_site -->
+       </div><!-- class="bottom_middle" -->
+       <div class="bottom_right">
+           <div>
+            <address class="cocacola_bottling_korea">
+                <strong>코카-콜라 음료(주)</strong>
+                경상남도 양산시 충렬로 269 유산동 <br>
+                사업자등록번호 102-81-411121<br>
+                대표이사 : 이정애            
+            </address>
+            <ul class="cocacola_sns_icon">
+                <li><a href="https://www.facebook.com/Coca-Cola/" target=_blank><img src="images/index/sns_01.png" alt="페이스북 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.instagram.com/coke.style" target=_blank><img src="images/index/sns_02.png" alt="인스타그램 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://twitter.com/CocaCola_Korea" target=_blank><img src="images/index/sns_03.png" alt="트위터 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.youtube.com/channel/UCzCxSb_RYZuaiaP3u9QNR_A" target=_blank><img src="images/index/sns_04.png" alt="유튜브 아이콘" width="43" height="42"></a></li>
+            </ul><!-- cocacola_sns_icon -->
+            <section class="cocacola_copyright">
+                <h6>COPYRIGHT &#169; COCA-COLA BEVERAGE COMPANY. ALL RIGHTS RESERVED.</h6>
+            </section><!-- cocacola_copyright -->
+          </div>
+          <i class="material-icons" id="top_icon">&#xe5d8;</i>
+       </div><!-- bottom_right -->
+   </footer><!-- cocacola_bottom -->
+</div><!-- cocacola_bottom_wrap 전체 하단 -->
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>코카-콜라 저니: 한국 코카-콜라(리뉴얼)</title>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/common.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout_clause.css">
+<link rel="shortcut icon" href="images/coke_favi.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+<header id="cocacola_headtop">
+	<div id="cocacola_top">
+		<div id="cocacola_left">
+			<h1><a href="index.html"><img src="images/index/logo.png" alt="코카콜라" width="110" height ="110"></a></h1>
+		</div><!--cocacola_logo -->
+	<nav id="cocacola_menu_navi">
+		<ul>
+			<li><a href="brand.html">Brand</a></li>
+			<li><a href="coke_story.html">Co-ke Story</a></li>
+			<li><a href="life.html">Life</a></li>
+			<li><a href="community.html">Community</a></li>
+			<li><a href="videos.html">Video</a></li>
+			<li><a href="company.html">Company</a></li>
+		</ul>
+	</nav><!-- cocacola_menu_navi 브랜드, 코크스토리.. -->	
+	
+	<ul id="cocacola_right">
+		<li class="login_join"><a href="login.html">Login</a></li>
+		<!-- login 로그인,회원가입 -->
+		<li class="mypage"><a href="join.html">My</a></li>
+		<!-- mypage 마이페이지 -->	
+
+		<li class="search"><i class="material-icons">&#xe8b6;</i>
+		    <p>	       
+                <span>         	  
+                    <label for="coke_search"></label>
+                    <input type="text" id="coke_search" autocomplete="off">
+                    <button type="button" id="search_button">검색</button>
+                </span>
+		    </p>
+        </li><!-- search 게시글 검색 -->
+
+			<li class="cocacola_world"><i class="material-icons">&#xe80b;</i>	
+          <!-- js 추가 -->
+           <div id="world_coke_wrap">
+              <ul id="n_africa">
+                   <li class="title">NORTH AMERICA</li>
+                   <li><a href="https://us.coca-cola.com/" target="_blank">United States</a></li>
+                   <li><a href="https://www.coca-cola.ca/" target="_blank" title="English">Canada</a></li>
+                   <li><a href="https://fr.coca-cola.ca/" target="_blank" title="Français">Canada</a></li>
+             </ul><!-- n_africa -->
+             
+             <ul id="l_america">
+                 <li class="title">LATIN AMERICA</li>
+                 <li><a href="https://www.cocacolalatinamerica.com/ar/es/home" target="_blank">Argentina</a></li>
+                 <li><a href="http://www.coca-cola.com.bz/">Belize</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/bo/es/home" target="_blank">Bolivia</a></li>
+                 <li><a href="https://www.coca-cola.com.br/" target="_blank" title="Brazil">Brasil</a></li>
+                 <li><a href="http://www.caribbean.coca-cola.com/">Caribbean</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/cl/es/home" target="_blank">Chile</a></li>
+                 <li><a href="https://www.coca-cola.com.co/co/es/home">Colombia</a></li>
+                 <li><a href="http://www.coca-cola.co.cr/">Costa Rica</a></li>
+                 <li title="República Dominicana"><a href="https://www.coca-cola.com.co/do/es/home">Dominican Republic</a></li>
+                 <li><a href="http://www.coca-cola.com.ec/">Ecuador</a></li>
+                 <li><a href="http://www.coca-cola.com.sv/">El Salvador</a></li>
+                 <li><a href="http://www.coca-cola.com.gt/">Guatemala</a></li>
+                 <li><a href="http://www.coca-cola.com.hn/">Honduras</a></li>
+                 <li><a href="https://www.coca-cola.com.co/jm/en/home">Jamaica</a></li>
+                 <li><a href="https://www.coca-colamexico.com.mx/" target="_blank">México</a></li>
+                 <li><a href="http://www.coca-cola.com.ni/">Nicaragua</a></li>
+                 <li><a href="http://www.coca-cola.com.pa/">Panamá</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/pe/es/home" target="_blank">Paraguay</a></li>
+                 <li><a href="http://www.coca-cola.com.pe/">Perú</a></li>
+                 <li><a href="https://www.coca-cola.com.co/tt/en/home">Trinidad and Tobago</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/uy/es/home" target="_blank">Uruguay</a></li>
+                 <li><a href="http://www.coca-cola.com.ve/">Venezuela</a></li>
+             </ul><!-- l_america --> 
+             <ul id="europe">
+                 <li class="title">EUROPE</li>
+                 <li><a href="https://www.coca-cola-oesterreich.at/marken/coca-cola" target="_blank" title="Österreich">Austria</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="Belgique">Belgium</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="België">Belgium</a></li>
+                 <li><a href="https://www.coca-cola.ba/" target="_blank" title="Bosna i Hercegovina">Bosnia</a></li>
+                 <li><a href="https://www.coca-cola.bg/" target="_blank" title="България">Bulgaria</a></li>
+                 <li><a href="https://www.coca-cola.hr/" target="_blank" title="Hrvatska">Croatia</a></li>
+                 <li><a href="https://www.coca-cola.cz/" target="_blank" title="Česká Republika">Czech Republic</a></li>
+                 <li><a href="https://www.coca-cola.dk/" target="_blank" title="Danmark">Denmark</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Eesti">Estonia</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Suomi">Finland</a></li>
+                 <li><a href="https://www.coca-cola-france.fr/" target="_blank">France</a></li>
+                 <li><a href="https://www.coca-cola-deutschland.de/" target="_blank" title="Deutschland">Germany</a></li>
+                 <li><a href="https://www.coca-cola.co.uk/" target="_blank">Great Britain</a></li>
+                 <li><a href="https://www.coca-cola.gr/el/home/" target="_blank" title="Ελλάδα">Greece</a></li>
+                 <li><a href="https://www.coca-cola.hu/" target="_blank" title="Magyarország">Hungary</a></li>
+                 <li><a href="http://www.coke.is/" target="_blank" title="Ísland">Iceland</a></li>
+                 <li><a href="https://www.coca-cola.ie/" target="_blank">Ireland</a></li>
+                 <li><a href="https://www.coca-colaitalia.it/brands/coca-cola" target="_blank" title="Italia">Italy</a></li>
+                 <li><a href="https://www.coca-cola.lv/" target="_blank" title="Latvija">Latvia</a></li>
+                 <li><a href="https://www.coca-cola.lt/" target="_blank" title="Lietuva">Lithuania</a></li>
+                 <li><a href="https://fr.coca-cola.be/mieux-nous-connaitre/a-propos-de-coca-cola/faits-et-chiffres-sur-coca-cola" target="_blank">Luxembourg</a></li>
+                 <li><a href="https://www.cocacolanederland.nl/" target="_blank" title="Nederland">Netherlands</a></li>
+                 <li><a href="https://www.coca-cola.no/" target="_blank" title="Norge">Norway</a></li>
+                 <li><a href="https://www.coca-cola.pl/" target="_blank" title="Polska">Poland</a></li>
+                 <li><a href="http://www.cocacola.pt/" target="_blank">Portugal</a></li>
+                 <li><a href="http://www.coca-cola.ro/" target="_blank" title="România">Romania</a></li>
+                 <li><a href="https://www.coca-cola.rs/" target="_blank" title="Srbija">Serbia</a></li>
+                 <li><a href="https://www.coca-cola.sk/" target="_blank" title="Slovensko">Slovakia</a></li>
+                 <li><a href="http://www.coca-cola.si/" target="_blank" title="Slovenija">Slovenia</a></li>
+                 <li><a href="https://www.cocacola.es/es/home/" target="_blank" title="España">Spain</a></li>
+                 <li><a href="https://www.coca-cola.se/" target="_blank" title="Sverige">Sweden</a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Schweiz">Switzerland </a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Suisse">Switzerland</a></li>
+             </ul><!-- europe --> 
+             <ul id="eurasia">
+                 <li class="title">EURASIA</li>
+                 <li><a href="http://www.coca-cola.am/" target="_blank">Armenia</a></li>
+                 <li><a href="http://www.coca-cola.az/" target="_blank" title="Azərbaycan">Azerbaijan</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Bahrain</a></li>
+                 <li><a href="http://coca-cola.by/" target="_blank" title="Беларусь">Belarus</a></li>
+                 <li><a href="http://ge.coca-cola.com/" target="_blank">Georgia</a></li>
+                 <li><a href="http://www.coca-cola.in/" target="_blank">India</a></li>
+                 <li><a href="http://cocacola.co.il/" target="_blank" title="ישראל">Israel</a></li>
+                 <li><a href="http://www.coca-cola.kz/kk/home/" target="_blank" title="Казахстан">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.kz/ru/home/" target="_blank" title="Русский">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.com.pk/" target="_blank">Pakistan</a></li>
+                 <li><a href="http://www.coca-cola.ps/" target="_blank">Palestinian Territories</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Qatar</a></li>
+                 <li><a href="http://www.coca-cola.ru/" target="_blank" title="Россия">Russia</a></li>
+                 <li><a href="http://www.coca-cola.com.tr/" target="_blank" title="Україна">Ukraine</a></li>
+                 <li><a href="http://www.coca-cola.ua/" target="_blank">United Arab Emirates</a></li>
+             </ul><!-- eurasia --> 
+             <ul id="africa">
+                 <li class="title">AFRICA</li>
+                 <li><a href="http://www.coca-cola.dz/ar/home/" target="_blank" title="العربية">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.dz/fr/home/" target="_blank" title="français">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Angola</a></li>
+                 <li><a href="http://www.coca-cola.com/bo/" target="_blank">Botswana</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Congo</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Democratic Republic of Congo</a></li>
+                 <li><a href="http://www.coca-cola.com/dji" target="_blank">Djibouti</a></li>
+                 <li><a href="http://www.coke.eg/en/home/" target="_blank">Egypt</a></li>
+                 <li><a href="http://www.coke.eg/ar/home/" target="_blank" title="مصر">Egypt</a></li>
+                 <li><a href="http://www.coca-cola.com/et" target="_blank">Ethiopia</a></li>
+                 <li><a href="http://www.coca-cola.co.ke/" target="_blank">Kenya</a></li>
+                 <li><a href="http://www.coca-cola.com/le" target="_blank">Lesotho</a></li>
+                 <li><a href="#">Madagascar</a></li>
+                 <li><a href="http://www.coca-cola.com/mal" target="_blank">Malawi</a></li>
+                 <li><a href="http://www.coca-cola.mu/en/home" target="_blank">Mauritius</a></li>
+                 <li><a href="http://www.coca-cola.ma/" target="_blank">Morocco</a></li>
+                 <li><a href="http://www.coca-cola.co.mz/" target="_blank">Mozambique</a></li>
+                 <li><a href="http://www.coca-cola.com/na" target="_blank">Namibia</a></li>
+                 <li><a href="http://www.coca-cola.com/ng" target="_blank">Nigeria</a></li>
+                 <li><a href="http://www.coca-cola.rw/" target="_blank">Rwanda</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Somalia</a></li>
+                 <li><a href="https://www.coke.co.za/" target="_blank">South Africa</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Swaziland</a></li>
+                 <li><a href="http://www.coca-cola.co.tz/" target="_blank">Tanzania</a></li>
+                 <li><a href="http://tunisia.coca-cola.com/language-selector/" target="_blank">Tunisia</a></li>
+                 <li><a href="http://www.coca-cola.co.ug/" target="_blank">Uganda</a></li>
+                 <li><a href="http://www.coca-cola.com/zm" target="_blank">Zambia</a></li>
+                 <li><a href="http://zw.coca-cola.com/en/home/" target="_blank">Zimbabwe</a></li>
+             </ul><!-- africa -->
+             <ul id="asia">
+                 <li class="title">ASIA PACIFIC</li>
+                 <li><a href="https://www.coca-cola.com.au/" target="_blank">Australia</a></li>
+                 <li><a href="http://www.coca-cola.com.bd/" target="_blank">Bangladesh</a></li>
+                 <li><a href="http://www.coca-cola.co.id/" target="_blank">Indonesia</a></li>
+                 <li><a href="http://www.cocacola.jp/" target="_blank" title="日本">Japan</a></li>
+                 <li><a href="http://www.coke.com.my/" target="_blank">Malaysia</a></li>
+                 <li><a href="http://mv.coca-cola.com/en/home/" target="_blank">Maldives</a></li>
+                 <li><a href="https://www.coke.co.nz/" target="_blank">New Zealand</a></li>
+                 <li><a href="http://www.coca-cola.com.ph/" target="_blank">Philippines</a></li>
+                 <li><a href="http://www.cocacola.co.kr/" target="_blank" title="대한민국">Republic of Korea</a></li>
+                 <li><a href="http://www.coca-cola.com.sg/" target="_blank">Republic of Singapore</a></li>
+                 <li><a href="http://lk.coca-cola.com/" target="_blank">Sri Lanka</a></li>
+                 <li><a href="https://www.coca-cola.com.cn/" target="_blank">China</a></li>
+                 <li><a href="http://www.icoke.hk/" target="_blank">Hong Kong</a></li>
+                 <li><a href="http://www.coke.com.tw/zh/home/" target="_blank">Taiwan</a></li>
+                 <li><a href="https://www.coca-cola.co.th/" target="_blank" title="ไทย">Thailand</a></li>
+                 <li><a href="http://www.coca-cola.vn/vi/home/" target="_blank">Vietnam</a></li>
+             </ul><!-- asia -->              
+           </div><!-- world_coke_wrap -->            
+		</li><!-- cocacola_world 전세계 코카콜라 사이트맵 -->
+		
+	</ul><!-- cocacola_right -->
+	</div> <!-- cocacola_top 로고, 메뉴, 로그인 ...-->
+</header><!--cocacola_headtop 전체상단-->
+
+<div id="all_wrap">
+	<h2>이용약관</h2>
+	<hr>
+	<p class="clause">제 1장 총 칙</p>
+	<p class="clause">제 1조 (목 적)</p>
+	<p class="clause_t">이 약관은 코카-콜라 음료 주식회사가 운영하는 인터넷쇼핑몰(이하 "몰"라 한다)에서 제공하는 인터넷 관련 서비스(이하 "서비스"라 한다)를 이용함에 있어 코카-콜라 음료 주식회사와 이용자의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+	<p class="clause">제 2조(정의)</p>
+	<p class="clause_t">① "몰" 이란 코카-콜라 음료 주식회사 부문이 재화 또는 용역(이하 "재화등"이라 함)을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화등을 거래할 수 있도록 설정한 가상의 영업장을 말하며, 아울러 "몰"을 운영하는 사업자의 의미로도 사용합니다.</p>
+	<p class="clause_t">② "이용자"란 "몰"에 접속하여 이 약관에 따라 "몰"이 제공하는 서비스를 받는 회원을 말합니다.</p>
+	<p class="clause_t">③ '회원'이라 함은 "몰"에 임직원 인증을 한 자로서, "몰"의 정보를 지속적으로 제공받으며, "몰"이 제공하는 서비스를 계속적으로 이용할 수 있는 자를 말합니다. 단, “몰”의 회원자격은 코카콜라음료의 임직원 외에 기타 계열사 또는 협력사 임직원에 대해서도 부여될 수 있고, “몰”의 회원자격이 코카콜라음료의 임직원임을 의미하는 것은 아니며, 이와 같은 회원 자격이 노동관계법 또는 기타 법령상 코카콜라음료와 회원간의 고용관계를 인정하는 지표 또는 자료로 사용될 수 없습니다.</p>
+	<p class="clause">제 3조 (약관의 명시와 개정)</p>
+	<p class="clause_t">① "몰"은 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호, 모사전송번호, 전자우편주소, 사업자등록번호, 통신판매업신고번호, 개인정보관리책임자등을 이용자가 쉽게 알 수 있도록 코카-콜라 음료 주식회사의 인터넷 쇼핑몰의 초기 서비스화면(전면)에 게시합니다. 다만, 약관의 내용은 이용자가 연결화면을 통하여 볼 수 있도록 할 수 있습니다.</p>
+	<p class="clause_t">② "몰은 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약철회배송책임환불조건 등과 같은 중요한 내용을 이용자가 이해할 수 있도록 별도의 연결화면 또는 팝업화면 등을 제공하여야 합니다.</p>
+	<p class="clause_t">③ "몰"은 전자상거래등에서의소비자보호에관한법률, 약관의규제에관한법률, 전자거래기본법, 전자서명법정보통신망이용촉진등에관한법률, 방문판매등에관한법률, 소비자보호법 등 관련법을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.</p>
+	<p class="clause_t">④ "몰"이 약관을 개정할 경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께 몰의 초기화면에 그 적용일자 7일이전부터 적용일자 전일까지 공지합니다. 다만, 이용자에게 불리하게 약관내용을 변경하는 경우에는 최소한 30일 이상의 사전 유예기간을 두고 공지합니다. 이 경우 "몰"은 개정전 내용과 개정후 내용을 명확하게 비교하여 이용자가 알기 쉽도록 표시합니다.</p>
+	<p class="clause_t">⑤ "몰"이 약관을 개정할 경우에는 그 개정약관은 그 적용일자 이후에 체결된 계약에 대해 적용되며, 그 이전에 이미 체결된 계약에 대해서는 이용자가 개정약관의 적용을 받기를 원하는 뜻을 ④항에 의한 개정약관의 공지기간 내에 "몰"에 송신하여 "몰"의 동의를 받은 경우에는 개정약관의 조항이 적용됩니다.</p>
+	<p class="clause_t">⑥ 이 약관에서 정하지 아니한 사항과 이 약관의 해석에 관하여는 전자상거래등에서의소비자보호에관한법률, 약관의규제등에관한법률, 공정거래위원회가 정하는 전자상거래등에서의소비자보호지침 및 관계법령 또는 상관례에 따릅니다.</p>
+	<p class="clause_t">제 4조 (서비스의 제공 및 변경)</p>
+	<p class="clause_t">① "몰"은 다음과 같은 업무를 수행합니다.<br>
+	<span class="span">
+	1. 재화 또는 용역에 대한 정보 제공 및 구매계약의 체결<br>
+	2. 구매계약이 체결된 재화 또는 용역의 배송<br>
+	3. 기타 "몰"이 정하는 업무<br>
+	</span></p>
+	<p class="clause_t">② "몰"은 재화 또는 용역의 품절 또는 기술적 사양의 변경 등의 경우에는 장차 체결되는 계약에 의해 제공할 재화 또는 용역의 내용을 변경할 수 있습니다. 이 경우에는 변경된 재화 또는 용역의 내용 및 제공일자를 명시하여 현재의 재화 또는 용역의 내용을 게시한 곳에 즉시 공지합니다.</p>
+	<p class="clause_t">③ "몰"이 제공하기로 이용자와 계약을 체결한 서비스의 내용을 재화등의 품절 또는 기술적 사양의 변경 등의 사유로 변경할 경우에는 그 사유를 이용자에게 통지 가능한 주소로 즉시 통지합니다.</p>
+	<p class="clause_t">④ 전항의 경우 "몰"은 이로 인하여 이용자가 입은 손해가 없도록 최선을 다합니다.</p>
+	<p class="clause">제 5조 (서비스의 중단)</p>
+	<p class="clause_t">① "몰"은 컴퓨터 등 정보통신설비의 보수점검교체 및 고장, 통신의 두절 등의 사유가 발생한 경우에는 서비스의 제공을 일시적으로 중단할 수 있습니다.</p>
+	<p class="clause_t">② 제1항에 의한 서비스 중단의 경우에는 "몰"은 제8조에 정한 방법으로 이용자에게 통지합니다.</p>
+	<p class="clause_t">③ 전항의 경우 "몰"은 이로 인하여 이용자가 입은 손해가 없도록 최선을 다합니다.</p>
+	<p class="clause">제 6조(회원가입)</p>
+	<p class="clause_t">① 이용자는 "몰"이 정한 가입 양식에 따라 회원정보를 기입한 후 이 약관에 동의한다는 의사표시를 함으로서 회원가입을 신청합니다.</p>
+	<p class="clause_t">② "몰"은 제1항과 같이 회원으로 가입할 것을 신청한 이용자 중 다음 각호에 해당하지 않는 한 회원으로 등록합니다.</p>
+	<p>
+	<span class="span">
+	1. 가입신청자가 이 약관 제7조제2항에 의하여 이전에 회원자격을 상실한 적이 있는 경우, 다만 제7조제2항에 의한 회원자격 상실 후 3년이 경과한 자로서 "몰"의 회원재가입 승낙을 얻은 경우에는 예외로 한다.<br>
+	2. 등록 내용에 허위, 기재누락, 오기가 있는 경우<br>
+	3. 기타 회원으로 등록하는 것이 "몰"의 기술상 현저히 지장이 있다고 판단되는 경우<br>
+	4. 회원가입신청일 현재 만14세 미만의 아동인 경우<br>
+	</span>
+		</p>
+	<p class="clause_t">③ 회원가입계약의 성립시기는 "몰"의 승낙이 회원에게 도달한 시점으로 합니다.</p>
+	<p class="clause_t">④ 회원은 등록사항에 변경이 있는 경우, 즉시 전자우편 기타 방법으로 "몰"에 대하여 그 변경사항을 알려야 합니다.</p>
+	<p class="clause">제 7조 (회원 탈퇴 및 자격 상실 등)</p>
+	<p class="clause_t">① 회원은 "몰"에 언제든지 탈퇴를 요청할 수 있으며 "몰"는 즉시 회원탈퇴를 처리합니다. 다만, 해지의사를 통지하기 전에 모든 상품의 판매 및 구매 절차를 완료, 철회 또는 취소해야만 합니다. 이 경우 판매 및 구매의 철회 또는 취소로 인한 불이익은 회원 본인이 부담하여야 합니다.</p>
+	<p class="clause_t">② 회원이 다음 각호의 사유에 해당하는 경우, "몰"은 회원자격을 제한 및 정지시킬 수 있습니다.
+	<span class="span">
+	1. 가입 신청시에 허위 내용을 등록한 경우<br>
+	2. "몰"을 이용하여 구입한 재화등의 대금, 기타 "몰"이용에 관련하여 회원이 부담하는 채무를 기일에 지급하지 않는 경우<br>
+	3. 다른 사람의 "몰" 이용을 방해하거나 그 정보를 도용하는 등 전자상거래 질서를 위협하는 경우<br>
+	4. "몰"을 이용하여 법령 또는 이 약관이 금지하거나 공서양속에 반하는 행위를 하는 경우<br>
+	</span>
+	</p>
+	<p class="clause_t">③ 회원은 구매한 제품을 영리를 목적으로 타인에게 재판매하여서는 아니되며, 회원이 본 의무를 위반하는 경우, '몰'은 회원에게 이용계약 취소, 탈퇴 및 손해배상을 청구할 수 있습니다.</p>
+	<p class="clause_t">④ "몰"이 회원 자격을 제한정지 시킨후, 동일한 행위가 2회이상 반복되거나 30일이내에 그 사유가 시정되지 아니하는 경우 "몰"은 회원자격을 상실시킬 수 있습니다.</p>
+	<p class="clause_t">⑤ "몰"이 회원자격을 상실시키는 경우에는 회원등록을 말소합니다. 이 경우 회원에게 이를 통지하고, 회원등록 말소전에 최소한 30일 이상의 기간을 정하여 소명할 기회를 부여합니다.</p>
+	<p class="clause">제 8조 (회원에 대한 통지)</p>
+	<p class="clause_t">① "몰"이 회원에 대한 통지를 하는 경우, 회원이 "몰"과 미리 약정하여 지정한 전자우편 주소로 할 수 있습니다.</p>
+	<p class="clause_t">② "몰"은 불특정다수 회원에 대한 통지의 경우 1주일 이상 "몰" 게시판에 게시함으로서 개별 통지에 갈음할 수 있습니다. 다만, 회원 본인의 거래와 관련하여 중대한 영향을 미치는 사항에 대하여는 개별통지를 합니다.</p>
+	<p class="clause">제 9조 (구매신청)</p>
+	<p class="clause_t">"몰"이용자는 "몰"상에서 다음 또는 이와 유사한 방법에 의하여 구매를 신청하며, "몰"은 이용자가 구매신청을 함에 있어서 다음의 각 내용을 알기 쉽게 제공하여야 합니다. 단, 회원인 경우 제2호 내지 제4호의 적용을 제외할 수 있습니다.
+	</p>
+	<p>
+	<span class="span">
+	1. 재화등의 검색 및 선택<br>
+	2. 성명, 주소, 전화번호, 전자우편주소(또는 이동전화번호) 등의 입력<br>
+	3. 약관내용, 청약철회권이 제한되는 서비스, 배송료설치비 등의 비용부담과 관련한 내용에 대한 확인<br>
+	4. 이 약관에 동의하고 위 3.호의 사항을 확인하거나 거부하는 표시(예, 마우스 클릭)<br>
+	5. 재화등의 구매신청 및 이에 관한 확인 또는 "몰"의 확인에 대한 동의<br>
+	6. 결제방법의 선택<br>
+	</span>
+	</p>
+	<p class="clause">제 10조 (계약의 성립)</p>
+	<p class="clause_t">① "몰"은 제9조와 같은 구매신청에 대하여 다음 각호에 해당하면 승낙하지 않을 수 있습니다.<br>
+	<span class="span">
+	1. 신청 내용에 허위, 기재누락, 오기가 있는 경우<br>
+	2. 미성년자가 담배, 주류등 청소년보호법에서 금지하는 재화 및 용역을 구매하는 경우<br>
+	3. 기타 구매신청에 승낙하는 것이 "몰" 기술상 현저히 지장이 있다고 판단하는 경우<br>
+	</span>
+	</p>
+	<p class="clause_t">② "몰"의 승낙이 제12조제1항의 수신확인통지형태로 이용자에게 도달한 시점에 계약이 성립한 것으로 봅니다.</p>
+	<p class="clause_t">③ "몰"의 승낙의 의사표시에는 이용자의 구매 신청에 대한 확인 및 판매가능 여부, 구매신청의 정정 취소등에 관한 정보등을 포함하여야 합니다.</p>
+	<p class="clause">제 11조 (지급방법)</p>
+	<p class="clause_t">"몰"에서 구매한 재화 또는 용역에 대한 대금지급방법은 다음 각호의 방법 중 가용한 방법으로 할 수 있습니다. 단, "몰"은 이용자의 지급방법에 대하여 재화 등의 대금에 어떠한 명목의 수수료도 추가하여 징수할 수 없습니다.</p>
+	<p>
+	<span class="span">
+	1. 계좌이체<br>
+	2. 신용카드 결제<br>
+	3. 온라인무통장입금<br>
+	4. 기타 전자적 지급방법에 의한 대금 지급 등<br>
+	</span>
+	</p>
+	<p class="clause">제 12조 (수신확인통지 구매신청 변경 및 취소)</p>
+	<p class="clause_t">① "몰"은 이용자의 구매신청이 있는 경우 이용자에게 수신확인통지를 합니다.</p>
+	<p class="clause_t">② 수신확인통지를 받은 이용자는 의사표시의 불일치등이 있는 경우에는 수신확인통지를 받은 후 즉시 구매신청 변경 및 취소를 요청할 수 있고 "몰"은 배송전에 이용자의 요청이 있는 경우에는 지체없이 그 요청에 따라 처리하여야 합니다.</p>
+	<p class="clause">제 13조 (재화등의 공급)</p>
+	<p class="clause_t">① "몰"은 이용자와 재화등의 공급시기에 관하여 별도의 약정이 없는 이상, 이용자가 청약을 한 날부터 7일 이내(단, 이용자가 미리 재화 등의 대금의 전부 또는 일부를 지급하는 경우에는 그 대금의 전부 또는 일부를 지급한 날로부터 3일 이내)에 재화 등을 배송할 수 있도록 주문제작, 포장 등 기타의 필요한 조치를 취합니다.</p>
+	<p class="clause_t">② "몰"은 이용자가 구매한 재화에 대해 배송수단, 수단별 배송비용 부담자, 수단별 배송기간 등을 명시합니다. 주문 신청한 상품이 품절 등의 사유로 원하는 기한 내에 배송이 불가능할 경우 "몰"은 이 사실을 이용자에게 알리고, 즉시 주문취소 및 환급 등의 처리를 합니다.</p>
+	<p class="clause">제 14조 (환급)</p>
+	<p class="clause_t">"몰"은 이용자가 구매신청한 재화 등이 품절 등의 사유로 인도 또는 제공을 할 수 없을 때에는 지체없이 그 사유를 이용자에게 통지하고 사전에 재화 등의 대금을 받은 경우에는 대금을 받은 날부터 2영업일 이내에 환급하거나 환급에 필요한 조치를 취합니다.</p>
+	<p class="clause">제 15조 (청약철회 등)</p>
+	<p class="clause_t">① "몰"과 재화등의 구매에 관한 계약을 체결한 이용자는 수신확인의 통지를 받은 날부터 7일 이내에는 청약의 철회를 할 수 있습니다.</p>
+	<p class="clause_t">② 이용자는 재화등을 배송받은 경우 다음 각호에 해당하는 경우에는 반품 및 교환을 할 수 없습니다.<br>
+	<span class="span">
+	1. 이용자에게 책임 있는 사유로 재화 등이 멸실 또는 훼손된 경우<br>
+	2. 이용자의 사용 또는 일부 소비에 의하여 재화 등의 가치가 현저히 감소한 경우<br>
+	3. 시간의 경과에 의하여 재판매가 곤란할 정도로 재화등의 가치가 현저히 감소한 경우<br>
+	4. 같은 성능을 지닌 재화등으로 복제가 가능한 경우 그 원본인 재화 등의 포장을 훼손한 경우<br>
+	</span>
+	</p>
+	<p>③ 이용자는 제1항 및 제2항의 규정에 불구하고 재화등의 내용이 표시•광고 내용과 다르거나 계약내용과 다르게 이행된 때에는 당해 재화등을 공급받은 날부터 3월이내, 그 사실을 안 날 또는 알 수 있었던 날부터 30일 이내에 청약철회 등을 할 수 있습니다.</p>
+	<p class="clause">제 16조 (청약철회 등의 효과)</p>
+	<p class="clause_t">① "몰"은 이용자로부터 재화 등을 반환받은 경우 3영업일 이내에 이미 지급받은 재화등의 대금을 환급합니다.</p>
+	<p class="clause_t">② "몰"은 위 대금을 환급함에 있어서 이용자가 신용카드 또는 전자화폐 등의 결제수단으로 재화등의 대금을 지급한 때에는 지체없이 당해 결제수단을 제공한 사업자로 하여금 재화등의 대금의 청구를 정지 또는 취소하도록 요청합니다.</p>
+	<p class="clause_t">③ 청약철회등의 경우 공급받은 재화등의 반환에 필요한 비용은 이용자가 부담합니다. "몰"은 이용자에게 청약철회등을 이유로 위약금 또는 손해배상을 청구하지 않습니다. 다만 재화등의 내용이 표시•광고 내용과 다르거나 계약내용과 다르게 이행되어 청약철회등을 하는 경우 재화등의 반환에 필요한 비용은 "몰"이 부담합니다.</p>
+	<p class="clause_t">④ 이용자가 재화등을 제공받을때 발송비를 부담한 경우에 "몰"은 청약철회시 그 비용을 누가 부담하는지를 이용자가 알기 쉽도록 명확하게 표시합니다.</p>
+	<p class="clause">제 17조 (개인정보보호)</p>
+	<p class="clause_t">①"몰"은 이용자의 정보수집시 구매계약 이행에 필요한 최소한의 정보를 수집합니다. 다음 사항을 필수사항으로 하며 그 외 사항은 선택사항으로 합니다.</p>
+	<table class="clause_table">
+		<caption>구매계약 이행에 필요한 최소한의 정보</caption>
+		<tr>
+			<th scope="col" id="division">구분</th>
+			<th scope="col" id="collect_listup">수집항목</th>
+			<th scope="col" id="collect_use_purpose">수집/이용목적</th>
+			<th scope="col" id="use_possession_term">이용/보유기간</th>
+		</tr>
+		<tr>
+			<th rowspan="3" class="height_size" scope="row">필<br>수<br>항<br>목</th>
+			<td headers="collect_listup">성명, 아이디(ID), 비밀번호(PW), <br>소속 그룹/회사 정사원번호<br>(사원번호가 있는 임직원의 경우)</td>
+			<td headers="collect_use_purpose">회원제 서비스 이용에<br> 필요한 본인 식별</td>
+			<td rowspan="3" headers="use_possession_term">회원 탈퇴시까지 단, 관계법령에 정함이있는 경우<br>해당
+법률에서 정한 기간동안 이용·보유가능</td>
+		</tr>
+		<tr>
+			<td headers="collect_listup">전화번호, 휴대전화번호</td>
+			<td rowspan="2" headers="collect_use_purpose">공지사항 전달,<br> 고충처리 등을 위한<br> 의사소통경로 확보</td>
+		</tr>
+		<tr>
+			<td headers="collect_listup">이메일 주소, <br>광고성정보 수신동의여부</td>
+		</tr>
+		<tr>
+			<th rowspan="2" class="height_size" scope="row">선<br>택<br>항<br>목</th>
+			<td headers="collect_listup">이메일 주소, 이메일 수신여부</td>
+			<td headers="collect_use_purpose">신상품 출시 및 <br>이벤트 정보 제공</td>
+			<td headers="use_possession_term">회원 탈퇴시까지 <br>단, 관계법령에 정함이 있는 경우 해당
+법률에서 정한 기간동안 이용·보유가능</td>
+		</tr>
+		<tr>
+			<td headers="collect_listup">수취인 이름, 수취인 전화번호,<br> 수취인 휴대폰번호, 수취인 주소</td>
+			<td headers="collect_use_purpose">구입제품 배송</td>
+			<td headers="use_possession_term">주문완료후 3개월<br> 단, 관계법령에 정함이 있는 경우 해당
+법률에서 정한 기간동안 이용·보유가능</td>
+		</tr>
+	</table>
+	<p class="clause_t">코카-콜라 음료 주식회사은 보다 원활한 서비스 제공을 위하여 필수항목 이외 선택항목 정보를 수집하고 있습니다. 선택항목 정보는 서비스 제공 시 활용되는 정보로서 제공을 원하지 않을 경우 수집하지 않으며, 미동의하는 경우 회원가입은 가능하나 선택항목과 관련된 서비스 이용에 제한을 받을 수 있습니다.</p>
+	<p class="clause_t">② "몰"이 이용자의 개인식별이 가능한 개인정보를 수집하는 때에는 반드시 당해 이용자의 동의를 받습니다.</p>
+	<p class="clause_t">③ 제공된 개인정보는 당해 이용자의 동의없이 목적외의 이용이나 제3자에게 제공할 수 없으며, 이에 대한 모든 책임은 “몰”이 집니다. 다음의 경우에는 예외로 합니다.</p>
+	<p>
+	<span class="span">
+	1. 배송업무상 배송업체에게 배송에 필요한 최소한의 이용자의 정보(성명, 주소, 전화번호)를 알려주는 경우<br>
+	2. 통계작성, 학술연구 또는 시장조사를 위하여 필요한 경우로서 특정 개인을 식별할 수 없는 형태로 제공하는 경우<br>
+	3. 재화등의 거래에 따른 대금정산을 위하여 필요한 경우<br>
+	4. 도용방지를 위하여 본인확인에 필요한 경우<br>
+	5. 법률의 규정 또는 법률에 의하여 필요한 불가피한 사유가 있는 경우<br>
+	</span>
+	</p>
+	<p class="clause_t">④ "몰"이 제2항과 제3항에 의해 이용자의 동의를 받아야 하는 경우에는 개인정보보호 책임자의 신원(소속, 성명 및 전화번호, 기타 연락처), 정보의 수집목적 및 이용목적, 제3자에 대한 정보제공 관련사항(제공받은자, 제공목적 및 제공할 정보의 내용) 등 정보통신망이용촉진등에관한법률 제22조제2항이 규정한 사항을 미리 명시하거나 고지해야 하며 이용자는 언제든지 이 동의를 철회할 수 있습니다.</p>
+	<p class="clause_t">⑤이용자는 언제든지 "몰"이 가지고 있는 자신의 개인정보에 대해 열람 및 오류정정을 요구할 수 있으며 "몰"은 이에 대해 지체없이 필요한 조치를 취할 의무를 집니다. 이용자가 오류의 정정을 요구한 경우에는 "몰"은 그 오류를 정정할 때까지 당해 개인정보를 이용하지 않습니다.</p>
+	<p class="clause_t">⑥ “몰”은 개인정보 보호를 위하여 관리자를 한정하여 그 수를 최소화하며 신용카드, 은행계좌 등을 포함한 이용자의 개인정보의 분실, 도난, 유출, 변조 등으로 인한 이용자의 손해에 대하여 모든 책임을 집니다.</p>
+	<p class="clause_t">⑦ "몰" 또는 그로부터 개인정보를 제공받은 제3자는 개인정보의 수집목적 또는 제공받은 목적을 달성한 때에는 당해 개인정보를 지체없이 파기합니다.</p>
+	<p class="clause_t">⑧ "몰"은 정보통신서비스를 1년의 기간 동안 이용하지 아니하는 이용자(장기 미이용자)의 개인정보는 관련법령에 따라 해당기간 경과 후 즉시 파기하며 회원자격은 상실됩니다.</p>
+	<p class="clause">제 18조 ("몰"의 의무)</p>
+	<p class="clause_t">① "몰"은 법령과 이 약관이 금지하거나 공서양속에 반하는 행위를 하지 않으며 이 약관이 정하는 바에 따라 지속적이고, 안정적으로 재화용역을 제공하는데 최선을 다하여야 합니다.</p>
+	<p class="clause_t">② "몰"은 이용자가 안전하게 인터넷 서비스를 이용할 수 있도록 이용자의 개인정보(신용정보 포함)보호를 위한 보안 시스템을 갖추어야 합니다.</p>
+	<p class="clause_t">③ "몰"이 상품이나 용역에 대하여 「표시광고의공정화에관한법률」 제3조 소정의 부당한 표시광고행위를 함으로써 이용자가 손해를 입은 때에는 이를 배상할 책임을 집니다.</p>
+	<p class="clause_t">④ "몰"은 이용자가 원하지 않는 영리목적의 광고성 전자우편을 발송하지 않습니다.</p>
+	<p class="clause">제 19조 (회원의 ID및 비밀번호에 대한 의무)</p>
+	<p class="clause_t">① 제17조의 경우를 제외한 ID와 비밀번호에 관한 관리책임은 회원에게 있습니다.</p>
+	<p class="clause_t">② 회원은 자신의 ID 및 비밀번호를 제3자에게 이용하게 해서는 안됩니다.</p>
+	<p class="clause_t">③ 회원이 자신의 ID 및 비밀번호를 도난당하거나 제3자가 사용하고 있음을 인지한 경우에는 바로 "몰"에 통보하고 "몰"의 안내가 있는 경우에는 그에 따라야 합니다.</p>
+	<p class="clause">제 20조 (이용자의 의무)</p>
+	<p class="clause_t">이용자는 다음 행위를 하여서는 안됩니다.</p>
+	<p>
+	<span class="span">
+	1. 신청 또는 변경시 허위 내용의 등록<br>
+	2. 타인의 정보 도용<br>
+	3. "몰"에 게시된 정보의 변경<br>
+	4. "몰"이 정한 정보 이외의 정보(컴퓨터 프로그램 등) 등의 송신 또는 게시<br>
+	5. "몰" 기타 제3자의 저작권 등 지적재산권에 대한 침해<br>
+	6. "몰" 기타 제3자의 명예를 손상시키거나 업무를 방해하는 행위<br>
+	7. 외설 또는 폭력적인 메시지, 화상, 음성, 기타 공서양속에 반하는 정보를 몰에 공개 또는 게시하는 행위<br>
+	</span>
+	</p>
+	<p class="clause">제 21조 (연결 "몰"과 피연결"몰"간의 관계)</p>
+	<p class="clause_t">① 상위 "몰"과 하위 "몰"이 하이퍼 링크(예: 하이퍼 링크의 대상에는 문자, 그림 및 동화상 등이 포함됨)방식 등으로 연결된 경우, 전자를 연결 "몰"(웹 사이트)이라고 하고 후자를 피연결 "몰"(웹사이트)이라고 합니다.</p>
+	<p class="clause_t">② "몰"은 자신의 사이트에 "몰" 연결 사이트가 취급하는 상품 또는 용역에 대하여 보증책임을 지지 않는다는 내용을 명시한 경우, 그 거래에 대한 보증책임을 지지 않습니다.</p>
+	<p class="clause_t">③ "몰"과 "몰" 연결 사이트는 독자적으로 점포를 운영하는 것으로 "몰"은 "몰" 연결사이트와 이용자간에 행해진 거래에 대하여 어떠한 책임도 지지 않습니다.</p>
+	<p class="clause">제 22조 (저작권의 귀속 및 이용제한)</p>
+	<p class="clause_t">① "몰"이 작성한 저작물에 대한 저작권 기타 지적재산권은 "몰"에 귀속합니다.</p>
+	<p class="clause_t">② 이용자는 "몰"을 이용함으로써 얻은 정보 중 "몰"에게 지적재산권이 귀속된 정보를 "몰"의 사전 승낙없이 복제, 송신, 출판, 배포, 방송 기타 방법에 의하여 영리목적으로 이용하거나 제3자에게 이용하게 하여서는 안됩니다.</p>
+	<p class="clause_t">③ "몰"은 약정에 따라 이용자에게 귀속된 저작권을 사용하는 경우 당해 이용자에게 통보하여야 합니다.</p>
+	<p class="clause">제 23조 (분쟁해결)</p>
+	<p class="clause_t">① "몰"은 이용자로부터 제출되는 불만사항 및 의견은 우선적으로 그 사항을 처리합니다. 다만, 신속한 처리가 곤란한 경우에는 이용자에게 그 사유와 처리일정을 즉시 통보해 드립니다.</p>
+	<p class="clause_t">② "몰"과 이용자간에 발생한 전자상거래 분쟁과 관련하여 이용자의 피해구제신청이 있는 경우에는 공정거래위원회 또는 시•도지사가 의뢰하는 분쟁조정기관의 조정에 따를 수 있습니다.</p>
+	<p class="clause">제 24조 (재판권 및 준거법)</p>
+	<p class="clause_t">①"몰"과 이용자간에 발생한 전자상거래 분쟁에 관한 소송은 제소 당시의 이용자의 주소에 의하고, 주소가 없는 경우에는 거소를 관할하는 지방법원의 전속관할로 합니다. 다만, 제소 당시 이용자의 주소 또는 거소가 분명하지 않거나 외국 거주자의 경우에는 민사소송법상의 관할법원에 제기합니다.</p>
+	<p class="clause_t">②"몰"과 이용자간에 제기된 전자상거래 소송에는 한국법을 적용합니다.</p>
+	<p class="clause">제25조(면책사항)</p>
+	<p class="clause_t">① 회사는 천재지변 또는 이에 준하는 불가항력으로 인하여 서비스를 제공할 수 없는 경우에는 서비스 제공에 관한 책임이 면제됩니다.</p>
+	<p class="clause_t">② 회사는 회원의 귀책사유로 인한 서비스의 이용장애에 대하여 책임을 지지 않습니다.</p>
+	<p class="clause_t">③ 회사는 회원이 회사의 서비스 제공으로부터 기대되는 이익을 얻지 못하였거나 서비스 자료에 대한 취사 선택 또는 이용으로 인하여 손해가 발생한 경우에 그에 대해 책임을 지지 않습니다.</p>
+	<p class="clause_t">④ 회사는 회원이 서비스에 게재한 정보, 자료, 사실의 신뢰도, 정확성 등 그 내용에 관하여는 책임을 지지 않습니다.</p>
+	<p class="clause">제26조 약관의 효력</p>
+	<p class="clause">부칙(2019. 8. 1)</p>
+	<p class="clause_t">이 약관은 2019년 8월 1일부터 시행하며 종전의 약관은 이 약관으로 대체합니다.</p>
+	
+</div><!-- all_wrap -->
+
+<div id="cocacola_bottom_wrap">
+   <footer id="cocacola_bottom">
+      <div class="company_logo">
+         <div>
+              <a href="https://www.coca-colacompany.com/" target=_blank><img src="images/index/footer_logo.png" alt="코카콜라 컴퍼니 로고" width="334" height="54"></a>
+          </div>
+      </div><!--company_logo -->
+      <div class="bottom_middle">
+          <div id="bottom_center_wrap">
+            <address class="cocacola_korea">
+                <strong>한국 코카콜라</strong><br>
+                서울시 종로구 새문안로 68 흥국생명빌딩 18층  한국 코카-콜라 (110-786)<br>
+                코카-콜라 음료(주) 고객 상담실 : 080-024-5999 (상담시간:월 ~ 금 09:00 ~ 18:00)
+                <br>       
+            </address>
+            <address class="personal_information">
+                개인정보 보호책임자 : 박형재<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+                개인정보 취급자 : 박선희<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+            </address>
+            <ul class="bottom_menu">
+                <li><a href="join_terms.html">개인정보처리방침</a></li>
+                <li><a href="clause.html">이용약관</a></li>
+                <li><a href="monition.html">법적고지</a></li>
+                <li><a href="mailto:webmaster@cocacola.co.kr">CONTACT US</a></li>
+            </ul>
+           </div>
+           <div id="family_site">
+				<button>FAMILY SITE<span class="updown">∧</span></button>
+					<ul>
+						<li><a href="https://www.coca-cola.com/" target="_blank">Coca-Cola</a></li>		
+						<li><a href="https://www.coca-colacompany.com/" target="_blank">Coca-Cola Company</a></li>
+						<li><a href="https://brand.naver.com/cocacola" target="_blank">코카-콜라 공식 스토어 </a></li>
+						<li><a href="http://www.ccbk.co.kr/index.jsp" target="_blank">㈜ 코카-콜라 음료</a></li>
+					</ul>
+			</div><!-- family_site -->
+       </div><!-- class="bottom_middle" -->
+       <div class="bottom_right">
+           <div>
+            <address class="cocacola_bottling_korea">
+                <strong>코카-콜라 음료(주)</strong>
+                경상남도 양산시 충렬로 269 유산동 <br>
+                사업자등록번호 102-81-411121<br>
+                대표이사 : 이정애            
+            </address>
+            <ul class="cocacola_sns_icon">
+                <li><a href="https://www.facebook.com/Coca-Cola/" target=_blank><img src="images/index/sns_01.png" alt="페이스북 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.instagram.com/coke.style" target=_blank><img src="images/index/sns_02.png" alt="인스타그램 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://twitter.com/CocaCola_Korea" target=_blank><img src="images/index/sns_03.png" alt="트위터 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.youtube.com/channel/UCzCxSb_RYZuaiaP3u9QNR_A" target=_blank><img src="images/index/sns_04.png" alt="유튜브 아이콘" width="43" height="42"></a></li>
+            </ul><!-- cocacola_sns_icon -->
+            <section class="cocacola_copyright">
+                <h6>COPYRIGHT &#169; COCA-COLA BEVERAGE COMPANY. ALL RIGHTS RESERVED.</h6>
+            </section><!-- cocacola_copyright -->
+          </div>
+          <i class="material-icons" id="top_icon">&#xe5d8;</i>
+       </div><!-- bottom_right -->
+   </footer><!-- cocacola_bottom -->
+</div><!-- cocacola_bottom_wrap 전체 하단 -->
+</body>
+</html>

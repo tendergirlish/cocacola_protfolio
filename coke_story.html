@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>코카-콜라 저니: 한국 코카-콜라(리뉴얼)</title>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/coke_story.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout_coke_story.css">
+<link rel="shortcut icon" href="images/coke_favi.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+<header id="cocacola_headtop">
+	<div id="cocacola_top">
+		<div id="cocacola_left">
+			<h1><a href="index.html"><img src="images/index/logo.png" alt="코카콜라" width="110" height ="110"></a></h1>
+		</div><!--cocacola_logo -->
+	<nav id="cocacola_menu_navi">
+		<ul>
+			<li><a href="brand.html">Brand</a></li>
+			<li><a href="coke_story.html">Co-ke Story</a></li>
+			<li><a href="life.html">Life</a></li>
+			<li><a href="community.html">Community</a></li>
+			<li><a href="videos.html">Video</a></li>
+			<li><a href="company.html">Company</a></li>
+		</ul>
+	</nav><!-- cocacola_menu_navi 브랜드, 코크스토리.. -->	
+	
+	<ul id="cocacola_right">
+		<li class="login_join"><a href="login.html">Login</a></li>
+		<!-- login 로그인,회원가입 -->
+		<li class="mypage"><a href="join.html">My</a></li>
+		<!-- mypage 마이페이지 -->	
+
+		<li class="search"><i class="material-icons">&#xe8b6;</i>
+		    <p>	       
+                <span>         	  
+                    <label for="coke_search"></label>
+                    <input type="text" id="coke_search" autocomplete="off">
+                    <button type="button" id="search_button">검색</button>
+                </span>
+		    </p>
+        </li><!-- search 게시글 검색 -->
+
+			<li class="cocacola_world"><i class="material-icons">&#xe80b;</i>	
+          <!-- js 추가 -->
+           <div id="world_coke_wrap">
+              <ul id="n_africa">
+                   <li class="title">NORTH AMERICA</li>
+                   <li><a href="https://us.coca-cola.com/" target="_blank">United States</a></li>
+                   <li><a href="https://www.coca-cola.ca/" target="_blank" title="English">Canada</a></li>
+                   <li><a href="https://fr.coca-cola.ca/" target="_blank" title="Français">Canada</a></li>
+             </ul><!-- n_africa -->
+             
+             <ul id="l_america">
+                 <li class="title">LATIN AMERICA</li>
+                 <li><a href="https://www.cocacolalatinamerica.com/ar/es/home" target="_blank">Argentina</a></li>
+                 <li><a href="http://www.coca-cola.com.bz/">Belize</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/bo/es/home" target="_blank">Bolivia</a></li>
+                 <li><a href="https://www.coca-cola.com.br/" target="_blank" title="Brazil">Brasil</a></li>
+                 <li><a href="http://www.caribbean.coca-cola.com/">Caribbean</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/cl/es/home" target="_blank">Chile</a></li>
+                 <li><a href="https://www.coca-cola.com.co/co/es/home">Colombia</a></li>
+                 <li><a href="http://www.coca-cola.co.cr/">Costa Rica</a></li>
+                 <li title="República Dominicana"><a href="https://www.coca-cola.com.co/do/es/home">Dominican Republic</a></li>
+                 <li><a href="http://www.coca-cola.com.ec/">Ecuador</a></li>
+                 <li><a href="http://www.coca-cola.com.sv/">El Salvador</a></li>
+                 <li><a href="http://www.coca-cola.com.gt/">Guatemala</a></li>
+                 <li><a href="http://www.coca-cola.com.hn/">Honduras</a></li>
+                 <li><a href="https://www.coca-cola.com.co/jm/en/home">Jamaica</a></li>
+                 <li><a href="https://www.coca-colamexico.com.mx/" target="_blank">México</a></li>
+                 <li><a href="http://www.coca-cola.com.ni/">Nicaragua</a></li>
+                 <li><a href="http://www.coca-cola.com.pa/">Panamá</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/pe/es/home" target="_blank">Paraguay</a></li>
+                 <li><a href="http://www.coca-cola.com.pe/">Perú</a></li>
+                 <li><a href="https://www.coca-cola.com.co/tt/en/home">Trinidad and Tobago</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/uy/es/home" target="_blank">Uruguay</a></li>
+                 <li><a href="http://www.coca-cola.com.ve/">Venezuela</a></li>
+             </ul><!-- l_america --> 
+             <ul id="europe">
+                 <li class="title">EUROPE</li>
+                 <li><a href="https://www.coca-cola-oesterreich.at/marken/coca-cola" target="_blank" title="Österreich">Austria</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="Belgique">Belgium</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="België">Belgium</a></li>
+                 <li><a href="https://www.coca-cola.ba/" target="_blank" title="Bosna i Hercegovina">Bosnia</a></li>
+                 <li><a href="https://www.coca-cola.bg/" target="_blank" title="България">Bulgaria</a></li>
+                 <li><a href="https://www.coca-cola.hr/" target="_blank" title="Hrvatska">Croatia</a></li>
+                 <li><a href="https://www.coca-cola.cz/" target="_blank" title="Česká Republika">Czech Republic</a></li>
+                 <li><a href="https://www.coca-cola.dk/" target="_blank" title="Danmark">Denmark</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Eesti">Estonia</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Suomi">Finland</a></li>
+                 <li><a href="https://www.coca-cola-france.fr/" target="_blank">France</a></li>
+                 <li><a href="https://www.coca-cola-deutschland.de/" target="_blank" title="Deutschland">Germany</a></li>
+                 <li><a href="https://www.coca-cola.co.uk/" target="_blank">Great Britain</a></li>
+                 <li><a href="https://www.coca-cola.gr/el/home/" target="_blank" title="Ελλάδα">Greece</a></li>
+                 <li><a href="https://www.coca-cola.hu/" target="_blank" title="Magyarország">Hungary</a></li>
+                 <li><a href="http://www.coke.is/" target="_blank" title="Ísland">Iceland</a></li>
+                 <li><a href="https://www.coca-cola.ie/" target="_blank">Ireland</a></li>
+                 <li><a href="https://www.coca-colaitalia.it/brands/coca-cola" target="_blank" title="Italia">Italy</a></li>
+                 <li><a href="https://www.coca-cola.lv/" target="_blank" title="Latvija">Latvia</a></li>
+                 <li><a href="https://www.coca-cola.lt/" target="_blank" title="Lietuva">Lithuania</a></li>
+                 <li><a href="https://fr.coca-cola.be/mieux-nous-connaitre/a-propos-de-coca-cola/faits-et-chiffres-sur-coca-cola" target="_blank">Luxembourg</a></li>
+                 <li><a href="https://www.cocacolanederland.nl/" target="_blank" title="Nederland">Netherlands</a></li>
+                 <li><a href="https://www.coca-cola.no/" target="_blank" title="Norge">Norway</a></li>
+                 <li><a href="https://www.coca-cola.pl/" target="_blank" title="Polska">Poland</a></li>
+                 <li><a href="http://www.cocacola.pt/" target="_blank">Portugal</a></li>
+                 <li><a href="http://www.coca-cola.ro/" target="_blank" title="România">Romania</a></li>
+                 <li><a href="https://www.coca-cola.rs/" target="_blank" title="Srbija">Serbia</a></li>
+                 <li><a href="https://www.coca-cola.sk/" target="_blank" title="Slovensko">Slovakia</a></li>
+                 <li><a href="http://www.coca-cola.si/" target="_blank" title="Slovenija">Slovenia</a></li>
+                 <li><a href="https://www.cocacola.es/es/home/" target="_blank" title="España">Spain</a></li>
+                 <li><a href="https://www.coca-cola.se/" target="_blank" title="Sverige">Sweden</a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Schweiz">Switzerland </a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Suisse">Switzerland</a></li>
+             </ul><!-- europe --> 
+             <ul id="eurasia">
+                 <li class="title">EURASIA</li>
+                 <li><a href="http://www.coca-cola.am/" target="_blank">Armenia</a></li>
+                 <li><a href="http://www.coca-cola.az/" target="_blank" title="Azərbaycan">Azerbaijan</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Bahrain</a></li>
+                 <li><a href="http://coca-cola.by/" target="_blank" title="Беларусь">Belarus</a></li>
+                 <li><a href="http://ge.coca-cola.com/" target="_blank">Georgia</a></li>
+                 <li><a href="http://www.coca-cola.in/" target="_blank">India</a></li>
+                 <li><a href="http://cocacola.co.il/" target="_blank" title="ישראל">Israel</a></li>
+                 <li><a href="http://www.coca-cola.kz/kk/home/" target="_blank" title="Казахстан">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.kz/ru/home/" target="_blank" title="Русский">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.com.pk/" target="_blank">Pakistan</a></li>
+                 <li><a href="http://www.coca-cola.ps/" target="_blank">Palestinian Territories</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Qatar</a></li>
+                 <li><a href="http://www.coca-cola.ru/" target="_blank" title="Россия">Russia</a></li>
+                 <li><a href="http://www.coca-cola.com.tr/" target="_blank" title="Україна">Ukraine</a></li>
+                 <li><a href="http://www.coca-cola.ua/" target="_blank">United Arab Emirates</a></li>
+             </ul><!-- eurasia --> 
+             <ul id="africa">
+                 <li class="title">AFRICA</li>
+                 <li><a href="http://www.coca-cola.dz/ar/home/" target="_blank" title="العربية">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.dz/fr/home/" target="_blank" title="français">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Angola</a></li>
+                 <li><a href="http://www.coca-cola.com/bo/" target="_blank">Botswana</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Congo</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Democratic Republic of Congo</a></li>
+                 <li><a href="http://www.coca-cola.com/dji" target="_blank">Djibouti</a></li>
+                 <li><a href="http://www.coke.eg/en/home/" target="_blank">Egypt</a></li>
+                 <li><a href="http://www.coke.eg/ar/home/" target="_blank" title="مصر">Egypt</a></li>
+                 <li><a href="http://www.coca-cola.com/et" target="_blank">Ethiopia</a></li>
+                 <li><a href="http://www.coca-cola.co.ke/" target="_blank">Kenya</a></li>
+                 <li><a href="http://www.coca-cola.com/le" target="_blank">Lesotho</a></li>
+                 <li><a href="#">Madagascar</a></li>
+                 <li><a href="http://www.coca-cola.com/mal" target="_blank">Malawi</a></li>
+                 <li><a href="http://www.coca-cola.mu/en/home" target="_blank">Mauritius</a></li>
+                 <li><a href="http://www.coca-cola.ma/" target="_blank">Morocco</a></li>
+                 <li><a href="http://www.coca-cola.co.mz/" target="_blank">Mozambique</a></li>
+                 <li><a href="http://www.coca-cola.com/na" target="_blank">Namibia</a></li>
+                 <li><a href="http://www.coca-cola.com/ng" target="_blank">Nigeria</a></li>
+                 <li><a href="http://www.coca-cola.rw/" target="_blank">Rwanda</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Somalia</a></li>
+                 <li><a href="https://www.coke.co.za/" target="_blank">South Africa</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Swaziland</a></li>
+                 <li><a href="http://www.coca-cola.co.tz/" target="_blank">Tanzania</a></li>
+                 <li><a href="http://tunisia.coca-cola.com/language-selector/" target="_blank">Tunisia</a></li>
+                 <li><a href="http://www.coca-cola.co.ug/" target="_blank">Uganda</a></li>
+                 <li><a href="http://www.coca-cola.com/zm" target="_blank">Zambia</a></li>
+                 <li><a href="http://zw.coca-cola.com/en/home/" target="_blank">Zimbabwe</a></li>
+             </ul><!-- africa -->
+             <ul id="asia">
+                 <li class="title">ASIA PACIFIC</li>
+                 <li><a href="https://www.coca-cola.com.au/" target="_blank">Australia</a></li>
+                 <li><a href="http://www.coca-cola.com.bd/" target="_blank">Bangladesh</a></li>
+                 <li><a href="http://www.coca-cola.co.id/" target="_blank">Indonesia</a></li>
+                 <li><a href="http://www.cocacola.jp/" target="_blank" title="日本">Japan</a></li>
+                 <li><a href="http://www.coke.com.my/" target="_blank">Malaysia</a></li>
+                 <li><a href="http://mv.coca-cola.com/en/home/" target="_blank">Maldives</a></li>
+                 <li><a href="https://www.coke.co.nz/" target="_blank">New Zealand</a></li>
+                 <li><a href="http://www.coca-cola.com.ph/" target="_blank">Philippines</a></li>
+                 <li><a href="http://www.cocacola.co.kr/" target="_blank" title="대한민국">Republic of Korea</a></li>
+                 <li><a href="http://www.coca-cola.com.sg/" target="_blank">Republic of Singapore</a></li>
+                 <li><a href="http://lk.coca-cola.com/" target="_blank">Sri Lanka</a></li>
+                 <li><a href="https://www.coca-cola.com.cn/" target="_blank">China</a></li>
+                 <li><a href="http://www.icoke.hk/" target="_blank">Hong Kong</a></li>
+                 <li><a href="http://www.coke.com.tw/zh/home/" target="_blank">Taiwan</a></li>
+                 <li><a href="https://www.coca-cola.co.th/" target="_blank" title="ไทย">Thailand</a></li>
+                 <li><a href="http://www.coca-cola.vn/vi/home/" target="_blank">Vietnam</a></li>
+             </ul><!-- asia -->              
+           </div><!-- world_coke_wrap -->            
+		</li><!-- cocacola_world 전세계 코카콜라 사이트맵 -->
+		
+	</ul><!-- cocacola_right -->
+	</div> <!-- cocacola_top 로고, 메뉴, 로그인 ...-->
+</header><!--cocacola_headtop 전체상단-->
+
+<div id="coke_story_headline">
+	    <img src="images/coke_story/top_01.jpg" alt="코카콜라 콜롬비아 보틀링 공장 이미지" width="1920" height="1000">
+</div><!-- story_headline -->
+
+<nav id="coke_story_menu_wrap">
+	<ul id="coke_story_menu">
+		<li class="menu_history">SINCE 1886</li>
+		<li class="menu_global">GLOBAL STORY</li>
+		<li class="menu_brand">BRAND STORY</li>
+	</ul><!-- coke_story_menu --> 
+</nav><!-- coke_story_menu_wrap --> 
+
+<section id="history_wrap">
+	<div id="history_container">
+		<div id="history_left">
+			<h1>네버엔딩 코카-콜라</h1>
+			<p>135년의 오랜 역사를 가진 코카-콜라의 끝없는 이야기가 펼쳐 집니다.</p>
+		</div><!-- history_left -->
+		<div id="history_right">
+		 <div id="scroll_wrap">
+			<div id="history_1880">
+				<div class="history_1880_title">
+				<h1>1880s~</h1>
+				<p><img src="images/coke_story/img_1880.jpg" alt="코카콜라를 최초로 판매했던 제이콥스 잡화점" width="800" height="250"></p>
+				<p>코카콜라 원액의 탄생</p>
+				</div>
+				<ul class="history_1880_year">
+					<li>1886.05.08</li>
+					<li>1891</li>
+					<li>1895</li>
+					<li>1899</li>
+				</ul>
+				<ul class="history_1880_text">
+					<li>존 펨버턴이  배합해 만든 코카-콜라 원액을 연구실 근처에 위치한 제이콥스약국(Jacob’s Pharmacy)에서 판매시작 </li>
+					<li>프랭크로빈슨(Frank Robinson)에 의해 ‘Coca-cola’ 상호 등록</li>
+					<li>첫해 코카-콜라 하루에 약 9잔 판매</li>
+					<li>‘The Coca-cola Company’ 법인 설립 </li>
+					<li>약 $2,300에 아사 캔들러(Asa Candler)에게 애틀랜타 사업가에게 사업 인계</li>
+					<li>코카콜라 한잔 당 5센트로 판매 </li>
+					<li>코카-콜라 원액 제조 공장을 시카고와 달라스, 로스엔젤레스에  건설</li>
+					<li>코카-콜라 판매 1억잔 돌파	</li>
+				</ul><!-- history_1880_text -->
+			</div><!-- history_1880 -->
+
+			<div id="history_1900">
+				<div class="history_1900_title">
+					<h1>1900s</h1>
+					<p><img src="images/coke_story/img_1900.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>사업으로의 변신! 3억잔 판매 돌파</p>
+				</div><!-- history_1900_title --> 
+				<ul class="history_1900_year">
+					<li>1900</li>
+					<li>1902</li>
+					<li>1906</li>
+					<li>1907</li>
+					<li>1909</li>
+				  </ul><!-- history_1900_year --> 
+				  <ul class="history_1900_text">
+					<li>코카-콜라를 시음해보도록 무료 시음 쿠폰 발급</li>
+					<li>2억잔 이상이상의 코카-콜라가 판매된 해</li>
+					<li>미국 외에서 코카-콜라를 제조하는 최초의 국가 쿠바와 파마나 </li>
+					<li>10억 개 이상의 코카-콜라가 판매된 해</li>
+					<li>코카-콜라 병들이 마차에 실려 배송 시작</li>
+				</ul><!-- history_1900_text -->            
+			</div><!-- history_1900 --> 
+
+			<div id="history_1910">
+				<div class="history_1910_title">
+					<h1>1910s</h1>
+					<p><img src="images/coke_story/img_1910.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>모조품의 등장, 컨투어병의 탄생</p>
+				</div><!-- history_1900_title --> 
+				<ul class="history_1910_year">
+					<li>1910</li>
+					<li>1912</li>
+					<li>1914</li>
+					<li>1915</li>
+					<li>1916</li>
+					<li>1919</li>
+				  </ul><!-- history_1910_year --> 
+				  <ul class="history_1910_text">
+					<li>20억 개 이상의 코카-콜라가 판매된 해</li>
+					<li>코카-콜라의 성공을 이용하려는 모조 음료들이 성행</li>
+					<li>40억 개 이상의 코카-콜라가 판매된 해</li>
+					<li>50억 개 이상의 코카-콜라가 판매된 해</li>
+					<li>인디아나주의 테러호트사의 루트 글래스 사에서 코카-콜라 병을 생산 시작</li>
+					<li>100억 잔 이상의 코카-콜라가 판매된 해</li>
+				</ul><!-- history_1910_text -->            
+			</div><!-- history_1910 -->
+
+			<div id="history_1920">
+				<div class="history_1920_title">
+					<h1>1920s</h1>
+					<p><img src="images/coke_story/img_1920.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>마케팅의 천재 우드러프 사장의 활약</p>
+				</div><!-- history_1920_title --> 
+				<ul class="history_1920_year">
+					<li>1923</li>
+					<li>1928</li>
+					<li>1929</li>
+				  </ul><!-- history_1920_year --> 
+				  <ul class="history_1920_text">
+					<li>우드러프 사장 임명 </li>
+					<li>암스테르담 올림픽에서 미국 대표 선수단 후원 및 캐나다의 개 썰매 경기와 스페인의 투우장의 벽을 장식</li>
+					<li>코카-콜라의 6개들이 상자와 개방형 냉각기 등 여러 혁신적인 발명품들을 개발하여 유통</li>
+					<li>종모양의 유리잔이 코카-콜라의 표준으로 채택 </li>
+				</ul><!-- history_1920_text -->            
+			</div><!-- history_1920 -->
+
+			<div id="history_1930">
+				<div class="history_1930_title">
+					<h1>1930s</h1>
+					<p><img src="images/coke_story/img_1930.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>사람들의 삶속에 자리잡은 코카-콜라!</p>
+				</div><!-- history_1930_title --> 
+				<ul class="history_1930_year">
+					<li>1930</li>
+					<li>1931</li>
+					<li>1935</li>
+					<li>1936</li>       
+				  </ul><!-- history_1930_year --> 
+				  <ul class="history_1930_text">
+					<li>코카-콜라의 국내 소비 증진을 위해 코카-콜라사에서 파견된 여성들이 집집마다 돌며 주방에 병따개 설치</li>
+					<li>해든 선드블름의 산타가 코카-콜라 광고에 첫 등장</li>
+					<li>최초의 표준 동전 투입식 자판기 사용</li>
+					<li>500억 잔 이상의 코카-콜라가 판매된 해</li>
+				</ul><!-- history_1930_text -->            
+			</div><!-- history_1930 -->
+
+			<div id="history_1940">
+				<div class="history_1940_title">
+					<h1>1940s</h1>
+					<p><img src="images/coke_story/img_1940.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>전쟁의 위기를 기회로! 유럽으로의 판매망 확대</p>
+				</div><!-- history_1940_title --> 
+				<ul class="history_1940_year">
+					<li>1941</li>
+					<li>1943</li>
+					<li>1944</li>   
+				  </ul><!-- history_1940_year --> 
+				  <ul class="history_1940_text">
+					<li>미국은 제 2차 세계대전에 참전, 회사에 얼마나 부담이 되건 간에,어디서든 코카-콜라 한 병을 5센트에 마실 수 있다"는 비전 공약</li>
+					<li>드와이트 아이젠하워 총사령관은 코카-콜라사의 긴급 전보를 보내 해외에 10개의 코카-콜라 현지 생산공장을 짓도록 요청, 전쟁이 계속되는 동안 많은 유럽인들이 코카-콜라를 처음 접하게 되었으며, 전쟁이 종결되자 코카-콜라의 판매망은 유럽 각지로 확대</li>
+					<li>1,000억 잔 이상의 코카-콜라가 판매된 해</li>
+				</ul><!-- history_1940_text -->            
+			</div><!-- history_1940 -->
+
+			<div id="history_1950">
+				<div class="history_1950_title">
+					<h1>1950s</h1>
+					<p><img src="images/coke_story/img_1950.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>코카-콜라는 즐겁고 유쾌한 생활 양식의 일부</p>
+				</div><!-- history_1950_title --> 
+				<ul class="history_1950_year">
+					<li>1952</li>
+					<li>1958</li>
+				  </ul><!-- history_1950_year --> 
+				  <ul class="history_1950_text">
+					<li>2,000억 잔 이상의 코카-콜라가 판매된 해</li>
+					<li>볼링, 피크닉 및 자동차 여행같은 50년대의 여가 활동의 필수품으로 자리잡은 코카-콜라</li>
+					<li>3,000억잔 이상의 코카-콜라가 판매된 해 </li>
+				</ul><!-- history_1950_text -->            
+			</div><!-- history_1950 -->
+
+			<div id="history_1960">
+				<div class="history_1960_title">
+					<h1>1960s</h1>
+					<p><img src="images/coke_story/img_1960.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>새 브랜드의 출시</p>
+				</div><!-- history_1960_title --> 
+				<ul class="history_1960_year">
+					<li>1960</li>
+					<li>1961</li>
+					<li>1964</li>
+					<li>1965</li>
+				  </ul><!-- history_1960_year --> 
+				  <ul class="history_1960_text">
+					<li>12온스 크기의 캔 탄생 </li>
+					<li>스프라이트 탄생</li>
+					<li>5,000억 잔 이상의 코카-콜라가 판매된 해</li>
+					<li>리프트-탑 캔 제품 출시</li>
+				</ul><!-- history_1960_text -->            
+			</div><!-- history_1960 -->        
+
+			<div id="history_1970">
+				<div class="history_1970_title">
+					<h1>1970s</h1>
+					<p><img src="images/coke_story/img_1970.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>전세계 시장으로의 확대</p>
+				</div><!-- history_1970_title --> 
+				<ul class="history_1970_year">
+					<li>1970</li>
+					<li>1973</li>
+					<li>1978</li>
+				  </ul><!-- history_1970_year --> 
+				  <ul class="history_1970_text">
+					<li>"코-크 물결"이라고 불리는 역동적인 띠 디자인 탄생</li>
+					<li>1조 잔 이상의 코카-콜라가 판매된 해</li>
+					<li>중국에 시판 허가를 받은 유일한 포장 청량음료로 중국 시작에 진출</li>
+				</ul><!-- history_1970_text -->            
+			</div><!-- history_1970 -->    
+
+			<div id="history_1980">
+				<div class="history_1980_title">
+					<h1>1980s</h1>
+					<p><img src="images/coke_story/img_1980.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>다이어트 코-크의 성공,뉴 코-크의 도전</p>
+				</div><!-- history_1980_title --> 
+				<ul class="history_1980_year">
+					<li>1982</li>
+					<li>1983</li>
+					<li>1985</li>
+					<li>1986</li>
+					<li>1988</li>
+				  </ul><!-- history_1980_year --> 
+				  <ul class="history_1980_text">
+					<li>전세계 2조 잔 이상의 코카-콜라가 판매된 해</li>
+					<li>다이어트 콜라 ( 코카콜라 라이트) 런칭</li>
+					<li>디즈니랜드 도쿄 후원</li>
+					<li>우주 왕복선 챌린저에 탑승 한 우주 비행사가 "우주 캔"을 테스트 할 때 우주에서 소비되는 최초의 음료</li>
+					<li>코카-콜라의 100번째 창립일</li>
+					<li>3조 잔 이상의 코카-콜라가 판매된 해</li>
+				</ul><!-- history_1980_text -->            
+			</div><!-- history_1980 -->     
+
+			<div id="history_1990">
+				<div class="history_1990_title">
+					<h1>1990s</h1>
+					<p><img src="images/coke_story/img_1990.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>새로운 시장과 브랜드</p>
+				</div><!-- history_1990_title --> 
+				<ul class="history_1990_year">
+					<li>1990</li>
+					<li>1991</li>
+					<li>1992</li>
+					<li>1995</li>
+					<li>1996</li>
+					<li>1997</li>
+					<li>1998</li>
+				  </ul><!-- history_1990_year --> 
+				  <ul class="history_1990_text">
+					<li>동독에 코카-콜라 소개</li>
+					<li>“World of Coca-Cola"(The Coca-Cola Universe) 박물관이 애틀란타에 오픈, 연간 평균 100만명 방문</li>
+					<li>코카-콜라는 업계 처음으로 일부 재생 플라스틱을 활용한 획신적인 병 소개</li>
+					<li>Powerade 음료 출시및 올림픽 공식 스포츠 음료로 지정</li>
+					<li>코카-콜라 북극곰 처음으로 광고에 등장, 20온즈 컨투어 플라스틱 병이 출시</li>
+					<li>미국의 Barq's 투트비어 브랜드를 인수</li>
+					<li>코카-콜라의 고향인 아틀란타의 하계 올림픽 게임을 지원</li>
+					<li>코카-콜라사는 Project Hope을 통해 700명이 넘는 중국 학생들에게 4년간 대학 지원</li>
+					<li>코카-콜라는 FIFA의 파트너쉽을 넘어 Federation international de football Association과의 장기 계약 체결</li>
+				</ul><!-- history_1990_text -->            
+			</div><!-- history_1990 -->     
+
+			<div id="history_2000">
+				<div class="history_2000_title">
+					<h1>2000s</h1>
+					<p><img src="images/coke_story/img_2000.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>코카-콜라의 따뜻한 여정, 지속가능경영</p>
+				</div><!-- history_2000_title --> 
+				<ul class="history_2000_year">
+					<li>2001</li>
+					<li>2002</li>
+					<li>2004</li>
+					<li>2006</li>
+					<li>2007</li>
+					<li>2007.05.24</li>
+					<li>2009</li>
+				  </ul><!-- history_2000_year --> 
+				  <ul class="history_2000_text">
+					<li>냉장고 공간을 보다 적게 차지하는 날씬하고 길쭉한 12개입 패키지인 '프릿지 팩 미국 출시</li>
+					<li>미국 유타주 솔트레이크시티에서 개최된 동계 올림픽에서 76년 연속 올림픽 후원 기업으로 선정</li>
+					<li>한일 FIFA 월드컵 후원</li>
+					<li>네빌 이스델, 코카-콜라 사의 대표이사 겸 CEO로 선출</li>
+					<li>뉴욕의 타임 스퉤어에 3차원 하이테크 디스플레이를 설치</li>
+					<li>Make Every Drop Count(한 방울씩 소중하게 채우세요)' 캠페인 시작</li>
+					<li>Energy Brands Inc. 인수</li>
+					<li>조지아 주 아틀란타에 NEW WORLD of Coca-Cola를 오픈</li>
+					<li>100가지가 넘는 음료 중에서 선택할 수있는 혁신적인 음료 디스펜서인 Coca ‑ Cola Freestyle 출시</li>
+					<li>완전히 재활용이가능한 PlantBottle PET 병 탄생</li>
+				</ul><!-- history_2000_text -->            
+			</div><!-- history_2000 --> 
+
+			<div id="history_2010">
+				<div class="history_2010_title">
+					<h1>2010s~</h1>
+					<p><img src="images/coke_story/img_2010.jpg" alt="1900년대의 초기 코카콜라 상점" width="800" height="250"></p>
+					<p>135년의 브랜드, 코카-콜라</p>
+				</div><!-- history_2010_title --> 
+				<ul class="history_2010_year">
+					<li>2010</li>
+					<li>2011</li>
+					<li>2021 현재</li>
+				  </ul><!-- history_2010_year --> 
+				  <ul class="history_2010_text">
+					<li>아이티에서 발생한 엄청난 지진 이후 코카콜라 컴퍼니는 아이티의 망고 부문에서 지속 가능한 산업을 개발하는 것을 목표로하는 공공 및 민간 이니셔티브 인 아이티 희망 프로젝트를 시작</li>
+					<li>Coca-Cola Company는 북미에서 Coca-Cola의 모든 병입 작업을 인수</li>
+					<li>Coca ‑ Cola Company 창립 125 주년</li>
+					<li>Coca ‑ Cola Company 창립 135 주년</li>
+				</ul><!-- history_2010_text -->            
+			</div><!-- history_2010 -->   
+		  </div><!-- scroll wrap -->      
+		</div><!-- history_right -->	
+	</div>
+</section><!-- history_wrap -->
+
+<div id="cocacola_bottom_wrap">
+   <footer id="cocacola_bottom">
+      <div class="company_logo">
+         <div>
+              <a href="https://www.coca-colacompany.com/" target=_blank><img src="images/index/footer_logo.png" alt="코카콜라 컴퍼니 로고" width="334" height="54"></a>
+          </div>
+      </div><!--company_logo -->
+      <div class="bottom_middle">
+          <div id="bottom_center_wrap">
+            <address class="cocacola_korea">
+                <strong>한국 코카콜라</strong><br>
+                서울시 종로구 새문안로 68 흥국생명빌딩 18층  한국 코카-콜라 (110-786)<br>
+                코카-콜라 음료(주) 고객 상담실 : 080-024-5999 (상담시간:월 ~ 금 09:00 ~ 18:00)
+                <br>       
+            </address>
+            <address class="personal_information">
+                개인정보 보호책임자 : 박형재<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+                개인정보 취급자 : 박선희<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+            </address>
+            <ul class="bottom_menu">
+                <li><a href="join_terms.html">개인정보처리방침</a></li>
+                <li><a href="clause.html">이용약관</a></li>
+                <li><a href="monition.html">법적고지</a></li>
+                <li><a href="mailto:webmaster@cocacola.co.kr">CONTACT US</a></li>
+            </ul>
+           </div>
+           <div id="family_site">
+				<button>FAMILY SITE<span class="updown">∧</span></button>
+					<ul>
+						<li><a href="https://www.coca-cola.com/" target="_blank">Coca-Cola</a></li>		
+						<li><a href="https://www.coca-colacompany.com/" target="_blank">Coca-Cola Company</a></li>
+						<li><a href="https://brand.naver.com/cocacola" target="_blank">코카-콜라 공식 스토어 </a></li>
+						<li><a href="http://www.ccbk.co.kr/index.jsp" target="_blank">㈜ 코카-콜라 음료</a></li>
+					</ul>
+			</div><!-- family_site -->
+       </div><!-- class="bottom_middle" -->
+       <div class="bottom_right">
+           <div>
+            <address class="cocacola_bottling_korea">
+                <strong>코카-콜라 음료(주)</strong>
+                경상남도 양산시 충렬로 269 유산동 <br>
+                사업자등록번호 102-81-411121<br>
+                대표이사 : 이정애            
+            </address>
+            <ul class="cocacola_sns_icon">
+                <li><a href="https://www.facebook.com/Coca-Cola/" target=_blank><img src="images/index/sns_01.png" alt="페이스북 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.instagram.com/coke.style" target=_blank><img src="images/index/sns_02.png" alt="인스타그램 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://twitter.com/CocaCola_Korea" target=_blank><img src="images/index/sns_03.png" alt="트위터 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.youtube.com/channel/UCzCxSb_RYZuaiaP3u9QNR_A" target=_blank><img src="images/index/sns_04.png" alt="유튜브 아이콘" width="43" height="42"></a></li>
+            </ul><!-- cocacola_sns_icon -->
+            <section class="cocacola_copyright">
+                <h6>COPYRIGHT &#169; COCA-COLA BEVERAGE COMPANY. ALL RIGHTS RESERVED.</h6>
+            </section><!-- cocacola_copyright -->
+          </div>
+          <i class="material-icons" id="top_icon">&#xe5d8;</i>
+       </div><!-- bottom_right -->
+   </footer><!-- cocacola_bottom -->
+</div><!-- cocacola_bottom_wrap 전체 하단 -->
+
+</body>
+</html>

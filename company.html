@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>코카-콜라 저니: 한국 코카-콜라(리뉴얼)</title>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/company.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout_company.css">
+<link rel="shortcut icon" href="images/coke_favi.ico">
+<link rel="stylesheet" href="css/jquery.bxslider.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script>
+    $(document).ready(function(){
+        $("#company_around_show").bxSlider({		
+            slideWidth : 1600,			
+			pager: false,
+			touchEnabled : true
+         });        
+    }); //end
+</script>
+<style>
+    .bx-wrapper{ 
+        border:none; box-shadow:none; 
+        -webkit-box-shadow:none; -ms-box-shadow:none;
+        margin:0 auto;
+        cursor:grab;
+    } /* company_around_show 슬라이더 */
+</style>
+
+</head>
+<body>
+<header id="cocacola_headtop">
+	<div id="cocacola_top">
+		<div id="cocacola_left">
+			<h1><a href="index.html"><img src="images/index/logo.png" alt="코카콜라" width="110" height ="110"></a></h1>
+		</div><!--cocacola_logo -->
+	<nav id="cocacola_menu_navi">
+		<ul>
+			<li><a href="brand.html">Brand</a></li>
+			<li><a href="coke_story.html">Co-ke Story</a></li>
+			<li><a href="life.html">Life</a></li>
+			<li><a href="community.html">Community</a></li>
+			<li><a href="videos.html">Video</a></li>
+			<li><a href="company.html">Company</a></li>
+		</ul>
+	</nav><!-- cocacola_menu_navi 브랜드, 코크스토리.. -->	
+	
+	<ul id="cocacola_right">
+		<li class="login_join"><a href="login.html">Login</a></li>
+		<!-- login 로그인,회원가입 -->
+		<li class="mypage"><a href="join.html">My</a></li>
+		<!-- mypage 마이페이지 -->	
+
+		<li class="search"><i class="material-icons">&#xe8b6;</i>
+		    <p>	       
+                <span>         	  
+                    <label for="coke_search"></label>
+                    <input type="text" id="coke_search" autocomplete="off">
+                    <button type="button" id="search_button">검색</button>
+                </span>
+		    </p>
+        </li><!-- search 게시글 검색 -->
+
+			<li class="cocacola_world"><i class="material-icons">&#xe80b;</i>	
+          <!-- js 추가 -->
+           <div id="world_coke_wrap">
+              <ul id="n_africa">
+                   <li class="title">NORTH AMERICA</li>
+                   <li><a href="https://us.coca-cola.com/" target="_blank">United States</a></li>
+                   <li><a href="https://www.coca-cola.ca/" target="_blank" title="English">Canada</a></li>
+                   <li><a href="https://fr.coca-cola.ca/" target="_blank" title="Français">Canada</a></li>
+             </ul><!-- n_africa -->
+             
+             <ul id="l_america">
+                 <li class="title">LATIN AMERICA</li>
+                 <li><a href="https://www.cocacolalatinamerica.com/ar/es/home" target="_blank">Argentina</a></li>
+                 <li><a href="http://www.coca-cola.com.bz/">Belize</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/bo/es/home" target="_blank">Bolivia</a></li>
+                 <li><a href="https://www.coca-cola.com.br/" target="_blank" title="Brazil">Brasil</a></li>
+                 <li><a href="http://www.caribbean.coca-cola.com/">Caribbean</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/cl/es/home" target="_blank">Chile</a></li>
+                 <li><a href="https://www.coca-cola.com.co/co/es/home">Colombia</a></li>
+                 <li><a href="http://www.coca-cola.co.cr/">Costa Rica</a></li>
+                 <li title="República Dominicana"><a href="https://www.coca-cola.com.co/do/es/home">Dominican Republic</a></li>
+                 <li><a href="http://www.coca-cola.com.ec/">Ecuador</a></li>
+                 <li><a href="http://www.coca-cola.com.sv/">El Salvador</a></li>
+                 <li><a href="http://www.coca-cola.com.gt/">Guatemala</a></li>
+                 <li><a href="http://www.coca-cola.com.hn/">Honduras</a></li>
+                 <li><a href="https://www.coca-cola.com.co/jm/en/home">Jamaica</a></li>
+                 <li><a href="https://www.coca-colamexico.com.mx/" target="_blank">México</a></li>
+                 <li><a href="http://www.coca-cola.com.ni/">Nicaragua</a></li>
+                 <li><a href="http://www.coca-cola.com.pa/">Panamá</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/pe/es/home" target="_blank">Paraguay</a></li>
+                 <li><a href="http://www.coca-cola.com.pe/">Perú</a></li>
+                 <li><a href="https://www.coca-cola.com.co/tt/en/home">Trinidad and Tobago</a></li>
+                 <li><a href="https://www.cocacolalatinamerica.com/uy/es/home" target="_blank">Uruguay</a></li>
+                 <li><a href="http://www.coca-cola.com.ve/">Venezuela</a></li>
+             </ul><!-- l_america --> 
+             <ul id="europe">
+                 <li class="title">EUROPE</li>
+                 <li><a href="https://www.coca-cola-oesterreich.at/marken/coca-cola" target="_blank" title="Österreich">Austria</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="Belgique">Belgium</a></li>
+                 <li><a href="https://nl.coca-cola.be/campagnes-promoties/uefa/language-selector" target="_blank" title="België">Belgium</a></li>
+                 <li><a href="https://www.coca-cola.ba/" target="_blank" title="Bosna i Hercegovina">Bosnia</a></li>
+                 <li><a href="https://www.coca-cola.bg/" target="_blank" title="България">Bulgaria</a></li>
+                 <li><a href="https://www.coca-cola.hr/" target="_blank" title="Hrvatska">Croatia</a></li>
+                 <li><a href="https://www.coca-cola.cz/" target="_blank" title="Česká Republika">Czech Republic</a></li>
+                 <li><a href="https://www.coca-cola.dk/" target="_blank" title="Danmark">Denmark</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Eesti">Estonia</a></li>
+                 <li><a href="https://www.coca-cola.fi/" target="_blank" title="Suomi">Finland</a></li>
+                 <li><a href="https://www.coca-cola-france.fr/" target="_blank">France</a></li>
+                 <li><a href="https://www.coca-cola-deutschland.de/" target="_blank" title="Deutschland">Germany</a></li>
+                 <li><a href="https://www.coca-cola.co.uk/" target="_blank">Great Britain</a></li>
+                 <li><a href="https://www.coca-cola.gr/el/home/" target="_blank" title="Ελλάδα">Greece</a></li>
+                 <li><a href="https://www.coca-cola.hu/" target="_blank" title="Magyarország">Hungary</a></li>
+                 <li><a href="http://www.coke.is/" target="_blank" title="Ísland">Iceland</a></li>
+                 <li><a href="https://www.coca-cola.ie/" target="_blank">Ireland</a></li>
+                 <li><a href="https://www.coca-colaitalia.it/brands/coca-cola" target="_blank" title="Italia">Italy</a></li>
+                 <li><a href="https://www.coca-cola.lv/" target="_blank" title="Latvija">Latvia</a></li>
+                 <li><a href="https://www.coca-cola.lt/" target="_blank" title="Lietuva">Lithuania</a></li>
+                 <li><a href="https://fr.coca-cola.be/mieux-nous-connaitre/a-propos-de-coca-cola/faits-et-chiffres-sur-coca-cola" target="_blank">Luxembourg</a></li>
+                 <li><a href="https://www.cocacolanederland.nl/" target="_blank" title="Nederland">Netherlands</a></li>
+                 <li><a href="https://www.coca-cola.no/" target="_blank" title="Norge">Norway</a></li>
+                 <li><a href="https://www.coca-cola.pl/" target="_blank" title="Polska">Poland</a></li>
+                 <li><a href="http://www.cocacola.pt/" target="_blank">Portugal</a></li>
+                 <li><a href="http://www.coca-cola.ro/" target="_blank" title="România">Romania</a></li>
+                 <li><a href="https://www.coca-cola.rs/" target="_blank" title="Srbija">Serbia</a></li>
+                 <li><a href="https://www.coca-cola.sk/" target="_blank" title="Slovensko">Slovakia</a></li>
+                 <li><a href="http://www.coca-cola.si/" target="_blank" title="Slovenija">Slovenia</a></li>
+                 <li><a href="https://www.cocacola.es/es/home/" target="_blank" title="España">Spain</a></li>
+                 <li><a href="https://www.coca-cola.se/" target="_blank" title="Sverige">Sweden</a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Schweiz">Switzerland </a></li>
+                 <li><a href="https://de.coca-cola.ch/" target="_blank" title="Suisse">Switzerland</a></li>
+             </ul><!-- europe --> 
+             <ul id="eurasia">
+                 <li class="title">EURASIA</li>
+                 <li><a href="http://www.coca-cola.am/" target="_blank">Armenia</a></li>
+                 <li><a href="http://www.coca-cola.az/" target="_blank" title="Azərbaycan">Azerbaijan</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Bahrain</a></li>
+                 <li><a href="http://coca-cola.by/" target="_blank" title="Беларусь">Belarus</a></li>
+                 <li><a href="http://ge.coca-cola.com/" target="_blank">Georgia</a></li>
+                 <li><a href="http://www.coca-cola.in/" target="_blank">India</a></li>
+                 <li><a href="http://cocacola.co.il/" target="_blank" title="ישראל">Israel</a></li>
+                 <li><a href="http://www.coca-cola.kz/kk/home/" target="_blank" title="Казахстан">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.kz/ru/home/" target="_blank" title="Русский">Kazakhstan</a></li>
+                 <li><a href="http://www.coca-cola.com.pk/" target="_blank">Pakistan</a></li>
+                 <li><a href="http://www.coca-cola.ps/" target="_blank">Palestinian Territories</a></li>
+                 <li><a href="http://www.coca-cola.com.qa/" target="_blank">Qatar</a></li>
+                 <li><a href="http://www.coca-cola.ru/" target="_blank" title="Россия">Russia</a></li>
+                 <li><a href="http://www.coca-cola.com.tr/" target="_blank" title="Україна">Ukraine</a></li>
+                 <li><a href="http://www.coca-cola.ua/" target="_blank">United Arab Emirates</a></li>
+             </ul><!-- eurasia --> 
+             <ul id="africa">
+                 <li class="title">AFRICA</li>
+                 <li><a href="http://www.coca-cola.dz/ar/home/" target="_blank" title="العربية">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.dz/fr/home/" target="_blank" title="français">Algeria</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Angola</a></li>
+                 <li><a href="http://www.coca-cola.com/bo/" target="_blank">Botswana</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Congo</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Democratic Republic of Congo</a></li>
+                 <li><a href="http://www.coca-cola.com/dji" target="_blank">Djibouti</a></li>
+                 <li><a href="http://www.coke.eg/en/home/" target="_blank">Egypt</a></li>
+                 <li><a href="http://www.coke.eg/ar/home/" target="_blank" title="مصر">Egypt</a></li>
+                 <li><a href="http://www.coca-cola.com/et" target="_blank">Ethiopia</a></li>
+                 <li><a href="http://www.coca-cola.co.ke/" target="_blank">Kenya</a></li>
+                 <li><a href="http://www.coca-cola.com/le" target="_blank">Lesotho</a></li>
+                 <li><a href="#">Madagascar</a></li>
+                 <li><a href="http://www.coca-cola.com/mal" target="_blank">Malawi</a></li>
+                 <li><a href="http://www.coca-cola.mu/en/home" target="_blank">Mauritius</a></li>
+                 <li><a href="http://www.coca-cola.ma/" target="_blank">Morocco</a></li>
+                 <li><a href="http://www.coca-cola.co.mz/" target="_blank">Mozambique</a></li>
+                 <li><a href="http://www.coca-cola.com/na" target="_blank">Namibia</a></li>
+                 <li><a href="http://www.coca-cola.com/ng" target="_blank">Nigeria</a></li>
+                 <li><a href="http://www.coca-cola.rw/" target="_blank">Rwanda</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Somalia</a></li>
+                 <li><a href="https://www.coke.co.za/" target="_blank">South Africa</a></li>
+                 <li><a href="http://www.coca-cola.com.ng/en/home/" target="_blank">Swaziland</a></li>
+                 <li><a href="http://www.coca-cola.co.tz/" target="_blank">Tanzania</a></li>
+                 <li><a href="http://tunisia.coca-cola.com/language-selector/" target="_blank">Tunisia</a></li>
+                 <li><a href="http://www.coca-cola.co.ug/" target="_blank">Uganda</a></li>
+                 <li><a href="http://www.coca-cola.com/zm" target="_blank">Zambia</a></li>
+                 <li><a href="http://zw.coca-cola.com/en/home/" target="_blank">Zimbabwe</a></li>
+             </ul><!-- africa -->
+             <ul id="asia">
+                 <li class="title">ASIA PACIFIC</li>
+                 <li><a href="https://www.coca-cola.com.au/" target="_blank">Australia</a></li>
+                 <li><a href="http://www.coca-cola.com.bd/" target="_blank">Bangladesh</a></li>
+                 <li><a href="http://www.coca-cola.co.id/" target="_blank">Indonesia</a></li>
+                 <li><a href="http://www.cocacola.jp/" target="_blank" title="日本">Japan</a></li>
+                 <li><a href="http://www.coke.com.my/" target="_blank">Malaysia</a></li>
+                 <li><a href="http://mv.coca-cola.com/en/home/" target="_blank">Maldives</a></li>
+                 <li><a href="https://www.coke.co.nz/" target="_blank">New Zealand</a></li>
+                 <li><a href="http://www.coca-cola.com.ph/" target="_blank">Philippines</a></li>
+                 <li><a href="http://www.cocacola.co.kr/" target="_blank" title="대한민국">Republic of Korea</a></li>
+                 <li><a href="http://www.coca-cola.com.sg/" target="_blank">Republic of Singapore</a></li>
+                 <li><a href="http://lk.coca-cola.com/" target="_blank">Sri Lanka</a></li>
+                 <li><a href="https://www.coca-cola.com.cn/" target="_blank">China</a></li>
+                 <li><a href="http://www.icoke.hk/" target="_blank">Hong Kong</a></li>
+                 <li><a href="http://www.coke.com.tw/zh/home/" target="_blank">Taiwan</a></li>
+                 <li><a href="https://www.coca-cola.co.th/" target="_blank" title="ไทย">Thailand</a></li>
+                 <li><a href="http://www.coca-cola.vn/vi/home/" target="_blank">Vietnam</a></li>
+             </ul><!-- asia -->              
+           </div><!-- world_coke_wrap -->            
+		</li><!-- cocacola_world 전세계 코카콜라 사이트맵 -->
+		
+	</ul><!-- cocacola_right -->
+	</div> <!-- cocacola_top 로고, 메뉴, 로그인 ...-->
+</header><!--cocacola_headtop 전체상단-->
+
+<div id="comapany_head_image">
+	<img src="images/company/head_img.jpg" alt="코카콜라 애틀란타 뮤지엄 야경 사진" width="1920" height="1000">
+</div><!-- comapany_head_image -->
+
+<div id="company_introduce_wrap">
+	<section id="company_introduce">
+		<h3>글로벌 종합음료 회사, <span>The Coca-Cola Company</span></h3>
+		<p>코카-콜라 컴퍼니(Coca-Cola Company)는 전 세계 200여 개국 이상에 진출해있는 글로벌 종합 음료회사로 탄산, 스포츠음료, 생수, 주스, 차, 커피 등 총 200여 개 이상의 브랜드 제품을 보유하고 있다.</p>
+		<p>대표 브랜드로는 코카-콜라(Coca-Cola)를 필두로 환타(Fanta), 스프라이트(Sprite), 파워에이드(Powerade), 미닛메이드(Minute Maid), 비타민워터(Vitaminwater), 조지아 커피(Georgia Coffee), 골드피크 티(Gold Peak Tea), 어니스트 티(Honest Tea), 지코 코코넛워터(Zico coconut water), 스마트워터(Smartwater), 다사니(Dasani Water), 델발 주스(Del Valle juices), 심플리 주스(Simply juices), 아야타카 녹차(Ayataka green tea), 아데스(AdeS) 등이 있다.</p>
+		<p>소비자들이 자신의 취향에 따라 선택할 수 있도록 매년 다양한 신제품을 개발하고 있으며, 저칼로리와 제로칼로리 옵션도 늘려나가고 있다. 2019년 한 해만 약 1,000개 이상의 신제품을 출시했으며, 제로∙저칼로리 제품은 400개 이상에 달한다.</p>
+	</section><!-- company_introduce --> 
+</div><!-- company_introduce_wrap -->
+
+<div id="coke_glass_section">
+	<div id="swiping_wrap">
+    	<p class="coke_a_cup_img">
+	        <img src="images/company/coke_glass_img.png" alt="코카콜라 컵에 얼음을 넣어 음료가 튀는 사진" width="1920" height="1000"></p>
+	    <p class="scroll_txt taste">
+            <span class="txt_red">T</span>ASTE 
+            <span class="txt_red">T</span>ASTE 
+            <span class="txt_red">T</span>ASTE 
+            <span class="txt_red">T</span>ASTE 
+            <span class="txt_red">T</span>ASTE 
+            <span class="txt_red">T</span>ASTE 		
+            <span class="txt_red">T</span>ASTE  
+            <span class="txt_red">T</span>ASTE  
+            <span class="txt_red">T</span>ASTE  
+        </p>		
+        <p class="scroll_txt feeling">
+            <span class="txt_red">F</span>EELING <span class="txt_red">F</span>EELING <span class="txt_red">F</span>EELING <span class="txt_red">F</span>EELING <span class="txt_red">F</span>EELING <span class="txt_red">F</span>EELING <span class="txt_red">F</span>EELING <span class="txt_red">F</span>EELING
+        </p>		
+        <p class="scroll_txt the">
+            THE THE THE THE THE THE THE THE THE THE THE THE THE THE
+        </p>
+	</div><!-- swiping_wrap --> 
+</div><!-- coke_glass_section -->
+
+<div id="company_motto_wrap">
+	<div id="coke_company_in_a_word">
+			<p>“Refresh the world. Make a difference.”</p>
+			<p>사람들이 좋아하는 음료 브랜드를 만들어, 상쾌한 일상을 제공한다. 지속가능한 비즈니스를 통해 사람들의 삶, 우리가 살아가는 지역사회, 나아가 지구 전체를 더 나은 방향으로 변화시킨다.</p>
+	</div><!-- coke_company_in_a_word -->
+</div><!-- company_motto_wrap -->
+
+<div id="around_total_wrap">
+	<div id="company_around_show">
+		<div class="around">		
+			<img src="images/company/around_show_01.png" alt="코카콜라의 약력을 한눈에 살펴보기. 1886년 5월8일부터 판매 , 135년동안 소비자에게 상쾌함을! , 본사 미국 애틀랜타 ,  전세계 200개국 이상 진출, 200개 이상의 브랜드 , 하루 평균 판매량 20억잔" width="1600" height="800" id="around01">	
+		</div>
+		<div class="map_hover"><!-- map start --> 
+			<img src="images/map/america01.png" alt="코카콜라2020년 전세계 판매량 지도" width="1600" height="600" usemap="#coke_map" id="world_map">	
+			<map name="coke_map">
+				<area shape="poly" coords="584,14,529,18,512,21,509,33,497,35,483,42,468,43,456,45,440,47,421,45,399,43,389,48,377,55,365,57,344,59,332,59,317,57,305,54,284,54,258,60,248,66,238,72,227,76,212,94,201,112,244,98,266,91,284,98,295,112,302,145,288,159,273,181,273,206,295,213,309,220,320,220,342,227,349,242,370,220,381,227,403,224,410,231,413,242,417,220,439,206,446,188,475,170,493,159,507,155,496,141,525,134,539,127,529,94,521,101,529,94,521,101,496,87,482,98,467,119,457,130,449,112,431,109,428,94,449,84,460,80,478,73,496,58,536,33" href="#" alt="북아메리카" class="america1">						
+				<area shape="poly" coords="284,218,306,252,333,279,361,286,404,319,418,337,402,360,416,408,453,443,460,526,484,583,497,567,496,537,525,506,559,453,575,410,589,386,522,340,476,313,429,309,392,309,392,286,374,285,384,265,350,273,344,244,339,227,325,230,313,217" href="#" alt="라틴아메리카" class="america2">							
+				<area shape="poly" coords="1314,75,1286,94,1266,97,1282,129,1255,109,1256,88,1228,99,1202,98,1191,116,1208,124,1225,140,1226,158,1215,172,1209,158,1211,147,1197,147,1180,138,1163,123,1149,124,1146,134,1140,141,1123,141,1099,136,1079,127,1072,136,1045,141,1027,154,1024,170,1006,184,1012,194,1002,201,999,212,988,225,969,229,973,239,959,242,942,237,925,226,922,243,937,250,955,251,961,257,956,268,939,285,920,295,907,299,898,280,883,256,872,239,866,223,857,226,866,249,879,274,886,285,898,304,913,311,934,309,924,332,906,352,887,370,887,390,889,411,887,424,934,412,925,448,915,470,904,463,903,453,897,435,883,431,869,441,866,458,869,446,863,466,855,479,848,491,835,507,805,508,801,491,792,480,785,466,781,446,778,431,785,405,783,387,773,370,764,356,768,340,760,330,746,330,727,329,712,333,694,333,677,319,661,299,665,270,671,249,692,222,713,201,732,203,750,195,767,199,781,212,795,222,807,223,812,212,829,215,838,220,846,220,862,229,863,206,866,195,857,196,843,195,832,186,846,175,862,175,883,167,867,160,874,141,866,150,857,158,848,155,832,160,835,168,825,178,816,174,818,192,804,179,790,164,776,160,794,177,790,188,776,172,763,161,754,164,744,165,739,171,727,181,722,189,701,189,699,175,703,164,727,165,729,153,719,144,718,130,720,107,689,78,669,74,653,64,616,74,597,90,579,79,589,64,588,44,568,35,558,34,592,20,610,24,627,21,650,18,674,17,689,20,705,23,689,31,682,41,665,45,664,59,677,75,698,74,727,105,732,119,746,127,755,133,763,123,769,113,786,120,804,123,809,113,811,105,818,99,831,96,810,93,814,74,802,75,794,88,796,96,792,106,782,110,776,98,766,99,759,102,756,88,769,79,783,65,803,57,823,55,834,61,850,65,864,66,839,69,847,76,854,83,863,74,873,67,895,63,911,56,938,66,932,48,942,48,949,57,956,72,960,60,957,55,963,48,980,40,1000,36,1015,32,1048,38,1037,46,1056,46,1070,46,1096,46,1111,55,1128,53,1138,50,1164,52,1177,55,1195,56,1205,60,1236,60,1242,56,1279,66,1291,69,1301,69" href="#" alt="유럽,중동,아프리카" class="euroup">					
+				<area shape="poly" coords="1085,257,1073,261,1068,271,1054,282,1048,296,1045,311,1041,319,1031,301,1020,275,1018,254,1011,261,1000,254,994,243,983,243,973,240,970,224,986,222,997,212,1004,205,1007,196,1015,193,1008,179,1017,179,1028,172,1027,161,1032,152,1042,141,1058,136,1075,136,1080,130,1097,136,1119,138,1136,140,1147,138,1157,145,1150,124,1169,127,1178,136,1189,141,1201,147,1209,147,1212,155,1212,169,1212,179,1220,195,1236,199,1249,193,1254,186,1249,171,1246,157,1261,167,1258,178,1263,186,1263,199,1251,208,1232,199,1215,202,1206,192,1199,184,1191,179,1181,175,1174,184,1178,193,1199,193,1186,203,1192,215,1201,220,1202,229,1199,239,1192,251,1181,257,1167,261,1152,271,1160,287,1171,299,1161,309,1151,319,1143,308,1137,296,1130,305,1125,319,1141,329,1147,340,1149,359,1157,373,1170,349,1184,339,1196,328,1205,328,1205,344,1219,350,1233,349,1217,371,1217,381,1232,392,1240,390,1264,371,1270,363,1277,370,1285,363,1309,373,1321,381,1325,390,1332,400,1311,394,1302,394,1305,407,1308,424,1315,438,1321,450,1331,463,1329,479,1318,497,1302,511,1288,524,1277,527,1264,521,1260,505,1251,501,1249,508,1234,493,1217,497,1206,500,1192,503,1171,511,1172,500,1179,490,1177,477,1179,464,1181,449,1212,442,1217,432,1229,421,1240,415,1244,421,1258,412,1274,410,1275,427,1290,441,1295,431,1297,414,1302,404,1288,393,1288,381,1277,379,1264,379,1232,401,1217,397,1206,400,1192,395,1172,395,1151,390,1144,379,1128,356,1116,332,1142,352,1123,302,1120,281,1106,288,1102,267" href="#" alt="아시아" class="asia">
+			</map> <!-- coke_map -->
+		</div><!-- coke_map -->
+		<div class="brand_intro">
+			<img src="images/company/around_show_03.png" alt="200여개의 브랜드,18개의 제로/저 칼로리의 음료, 다양한 주스,워터,기능성음료,rtd커피,차" width="1600" height="800">
+		</div><!-- brand_intro --> 
+		<div class="water_return">
+			<img src="images/company/around_show_04.png" alt="수자원 리더십으로 사용한물 깨끗하게 환원 , 재활용을 패키지를 통해 지속가능한 패키지 25년까지 전브랜드 교체, 600만명의 여성 기업인 육성 프로젝트 및 10억달러 이상 기부" width="1600" height="800">
+		</div><!-- water_return -->
+		<div class="world_Bottling">
+			<img src="images/company/around_show_05.png" alt="전세계 보틀링 파트너 225곳, 보틀링공장 900곳, 70만이 넘는 코카-콜라 직원, 소매지점 3,000만" width="1600" height="800">
+		</div><!-- world_Bottling -->
+		<div class="sustainable_package">
+			<img src="images/company/around_show_06.png" alt="코카-콜라는 지속가능한 패키지라는 프로젝트를 통해 업계 최초 재활용패키지를 2030년까지 50% 이상 활용하기로 목표를 세웠다." width="1600" height="800">
+		</div> <!-- sustainable_package -->		
+		<div class="clean_water">
+			<img src="images/company/around_show_07.png" alt="2007년부터 물환원 프로젝트를 시행하여 2015년에 사용한 물의 100%를 깨끗한물로 지역사회에 환원했다." width="1600" height="800">
+		</div><!-- clean_water -->
+		<div class="woman_leader">
+			<img src="images/company/around_show_08.png" alt="여성 리더를 키우기 위한 5by20 프로젝트로 2019년 말기준 460만명의 여성의 성장을 도왔다." width="1600" height="800">
+		</div><!-- woman_leader -->
+		<div class="company_culture">
+			<img src="images/company/around_show_09.png" alt="130년동안 코카-콜라 직원들은 창의성 , 혁신, 협력, 지역사회에 대한 애정을 바탕으로 성장한 기업이다.휴먼라이츠 캠페인에서 13년 연속으로 만점을 받으며 일하기 좋은 기업으로 선정되었다.(2019) " width="1600" height="800">
+		</div><!-- company_culture -->
+	</div><!-- company_map -->
+</div><!-- around_total_wrap -->
+
+<div id="cocacola_bottom_wrap">
+   <footer id="cocacola_bottom">
+      <div class="company_logo">
+         <div>
+              <a href="https://www.coca-colacompany.com/" target=_blank><img src="images/index/footer_logo.png" alt="코카콜라 컴퍼니 로고" width="334" height="54"></a>
+          </div>
+      </div><!--company_logo -->
+      <div class="bottom_middle">
+          <div id="bottom_center_wrap">
+            <address class="cocacola_korea">
+                <strong>한국 코카콜라</strong><br>
+                서울시 종로구 새문안로 68 흥국생명빌딩 18층  한국 코카-콜라 (110-786)<br>
+                코카-콜라 음료(주) 고객 상담실 : 080-024-5999 (상담시간:월 ~ 금 09:00 ~ 18:00)
+                <br>       
+            </address>
+            <address class="personal_information">
+                개인정보 보호책임자 : 박형재<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+                개인정보 취급자 : 박선희<span>(홍보부)</span>02-3271-3071<a href="mailto:webmaster@cocacola.co.kr">webmaster@cocacola.co.kr</a>
+                <br>
+            </address>
+            <ul class="bottom_menu">
+                <li><a href="join_terms.html">개인정보처리방침</a></li>
+                <li><a href="clause.html">이용약관</a></li>
+                <li><a href="monition.html">법적고지</a></li>
+                <li><a href="mailto:webmaster@cocacola.co.kr">CONTACT US</a></li>
+            </ul>
+           </div>
+           <div id="family_site">
+				<button>FAMILY SITE<span class="updown">∧</span></button>
+					<ul>
+						<li><a href="https://www.coca-cola.com/" target="_blank">Coca-Cola</a></li>		
+						<li><a href="https://www.coca-colacompany.com/" target="_blank">Coca-Cola Company</a></li>
+						<li><a href="https://brand.naver.com/cocacola" target="_blank">코카-콜라 공식 스토어 </a></li>
+						<li><a href="http://www.ccbk.co.kr/index.jsp" target="_blank">㈜ 코카-콜라 음료</a></li>
+					</ul>
+			</div><!-- family_site -->
+       </div><!-- class="bottom_middle" -->
+       <div class="bottom_right">
+           <div>
+            <address class="cocacola_bottling_korea">
+                <strong>코카-콜라 음료(주)</strong>
+                경상남도 양산시 충렬로 269 유산동 <br>
+                사업자등록번호 102-81-411121<br>
+                대표이사 : 이정애            
+            </address>
+            <ul class="cocacola_sns_icon">
+                <li><a href="https://www.facebook.com/Coca-Cola/" target=_blank><img src="images/index/sns_01.png" alt="페이스북 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.instagram.com/coke.style" target=_blank><img src="images/index/sns_02.png" alt="인스타그램 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://twitter.com/CocaCola_Korea" target=_blank><img src="images/index/sns_03.png" alt="트위터 아이콘" width="43" height="42"></a></li>
+                <li><a href="http://www.youtube.com/channel/UCzCxSb_RYZuaiaP3u9QNR_A" target=_blank><img src="images/index/sns_04.png" alt="유튜브 아이콘" width="43" height="42"></a></li>
+            </ul><!-- cocacola_sns_icon -->
+            <section class="cocacola_copyright">
+                <h6>COPYRIGHT &#169; COCA-COLA BEVERAGE COMPANY. ALL RIGHTS RESERVED.</h6>
+            </section><!-- cocacola_copyright -->
+          </div>
+          <i class="material-icons" id="top_icon">&#xe5d8;</i>
+       </div><!-- bottom_right -->
+   </footer><!-- cocacola_bottom -->
+</div><!-- cocacola_bottom_wrap 전체 하단 -->
+</body>
+</html>
