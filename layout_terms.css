@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*폰트 - google font 'Noto Sans Kr 400'*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap");
+
+@import url("top.css");
+@import url("terms_contents.css"); /*바디*/
+@import url("bottom.css"); /*하단*/
+
+/*reset*/
+a{color:#333333;}
+body,div,p,ol,li,ul,h2,table,caption,tr,th,td,a,h1,img,nav,footer,address,strong,br,section,i,span,br{font:normal 13px/1.5em "Noto Sans KR",sans-serif; color:#333333;}
+header,section,footer,nav{display:block;}
+html,body{height:100%;}
+img{border:none;}
+
+/*스크롤 바*/
+::-webkit-scrollbar{
+	width:5px; height:5px;         
+} 
+
+::-webkit-scrollbar-thumb{  
+	border-radius:8px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#D54C4C),to(#962D2D));
+}
+
+/*드래그금지*/
+*{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

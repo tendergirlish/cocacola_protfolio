@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+
+/*animation*/
+@keyframes text_infinite{
+    0%{transform:translateX(0);}
+    100%{transform:translateX(-50%);}
+}
+@keyframes text2_infinite{
+    0%{transform:translateX(-50%);}
+    100%{transform:translateX(0);}
+}
+
+
+/*comapany_head_image*/
+#comapany_head_image{
+	clear:both;
+	width:100%;
+	height:auto;
+	margin-bottom:100px;
+}
+#comapany_head_image img{
+	width:100%; 
+	height:auto; 
+	vertical-align:top;
+	min-width:1920px;
+}
+
+/*company_introduce*/
+#company_introduce_wrap{
+	min-width:1900px;
+}
+#company_introduce{
+	clear:both;
+	width:1600px;
+	height:240px;
+	margin:0 auto;
+	margin-bottom:200px;
+}
+#company_introduce h3{
+	font-size:30px;
+	width:700px;
+	height:30px;
+	margin-bottom:50px;
+	text-align:justify;
+}
+#company_introduce span{
+	font-size:30px;
+	width:320px;
+	height:30px;
+	font-weight:bold;
+	display:inline;
+	line-height:30px;
+	color:#e61e2b;
+}
+#company_introduce p{
+	height:48px;
+	font-size:15px;
+	text-align:justify;
+}
+#company_introduce p:nth-of-type(1){
+	line-height:48px;
+}
+#company_introduce p:nth-of-type(2){
+	margin-top:5px;
+	margin-bottom:5px;
+	height:96px;
+	line-height:48px;
+}
+#company_introduce p:nth-of-type(3){
+	line-height:48px;	
+}
+
+#coke_glass_section{
+	clear:both;
+	width:1920px;
+	height:1000px;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:200px;
+	overflow:hidden;   
+}
+#swiping_wrap{
+	width:1920px;
+	height:1000px;
+	position:relative;
+    transform:rotate(-23deg);	
+}
+.scroll_txt{
+	font-size:150px;
+	color:#000000;
+	font-weight:bold;    
+}
+.txt_red{
+	color:#e61e2b;
+	font-size:150px;
+	font-weight:bold;
+}
+.coke_a_cup_img{
+	width:1920px;
+	height:1000px;
+	position:absolute; top:0; left:0;
+    transform:rotate(23deg);
+	z-index:5;
+}
+.taste{
+	width:6000px;
+    position:absolute;top:70px; left:-180px;
+	z-index:10;
+    word-spacing:0.5em;  
+    animation:text_infinite 20s linear infinite alternate;
+}
+.the{
+	width:6000px;
+	position:absolute;bottom:400px; left:0;
+	z-index:3;
+	word-spacing:0.5em;
+    animation:text2_infinite 20s linear infinite alternate;
+}
+.feeling{
+	width:6000px;
+	position:absolute;bottom:100px; left:-250px;
+	z-index:10;
+	word-spacing:0.5em;
+    animation:text_infinite 20s linear infinite alternate;
+}
+
+#company_motto_wrap{
+	width:100%;
+	height:150px;
+	min-width:1920px;
+}
+/*coke_company_in_a_word*/
+#coke_company_in_a_word{
+	clear:both;
+	width:1600px;
+	height:150px;
+	margin:0 auto;
+}
+#coke_company_in_a_word p:nth-child(1){
+	width:600px;
+	font-size:30px;
+	font-weight:bold;
+	color:#e61e2b;
+	text-align:justify;
+	line-height:30px;
+	margin-bottom:50px;
+}
+#coke_company_in_a_word p:nth-child(2){
+	font-size:15px;
+	width:1150px;
+	height:15px;
+	text-align:justify;
+	line-height:15px;
+	float:right;
+}
+
+#around_total_wrap{
+	width:100%;
+	overflow:hidden;
+	min-width:1920px;
+	margin-top:100px;
+	margin-bottom:200px;
+}
+
+/*company_around_show*/
+#company_around_show{
+	width:1600px;
+	height:800px;
+	margin:0 auto;
+	margin-bottom:200px;
+}
+#around01{
+	width:1600px;
+	height:800px;
+}
+#world_map{
+	width:1600px;
+	height:600px;
+}
+.map_hover{
+	width:1600px; 
+	height:600px;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.around, .brand_intro, .water_return, .world_Bottling, .sustainable_package, 
+.clean_water, .woman_leader, .company_culture{
+	width:1600px;
+	height:800px;
+}
